@@ -1,259 +1,253 @@
 <?php
+	$template = "/^Hello World, this is [\w\s?-]+ with HNGi7 ID HNG-\d{1,} using \w.* for stage 2 task/";
+	$idRegex = "/(HNG[-{0,}][\d]+)/";
+	$emailRegex = "/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/i";
+	$languageRegex = "/using \[{0,1}(\w+[^\s]+)/i";
+	$nameRegex = "/this is \[{0,1}([\w+,\s?-]+)]{0,1} with/i";
 
-$json = $_SERVER["QUERY_STRING"] ?? '';
+	$supported_json = '{
+		"py": "python",
+		"js": "node",
+		"php": "php",
+		"rb": "irb",
+		"java": "java",
+		"kt": "kotlinc",
+		"kts": "kotlinc",
+		"dart": "dart"
+	}'; # currently supported types should be updated
+	$supported_map = json_decode($supported_json, true); # convert to json object to work with
 
-$files = scandir("scripts/");
+	# Retrive the runtime engine name
+	function getRuntime($fileName) {;
+		global $supported_map;
 
+		$tokens = explode(".", $fileName); // split file name into [fileName, extension];
+		if (isset($tokens[1])) {
+			$ext = $tokens[1]; // extension
+			if ($ext && isset($supported_map[strtolower($ext)])) {
+				$runtime = $supported_map[strtolower($ext)]; // Get the name of the runtime
+				return $runtime;
+			}
+		}
 
-unset($files[0]);
-unset($files[1]);
-unset($files[2]);
-$data = [];
+		return null;
+	}
+ 
 
-function testFileContent($string)
-{
-    if (preg_match('/^Hello\sWorld[,|.|!]*\sthis\sis\s([a-zA-Z|-]{2,}\s){1,6}with\sHNGi7\sID\s(HNG-\d{3,})\sand\semail\s{1,3}(([\w+\.\-]+)@([\w+\.\-]+)\.([a-zA-Z]{2,5}))\s{1,3}using\s([a-zA-Z|#]{2,})\sfor\sstage\s2\stask.?$/i', trim($string), $values)) {
-        return ['pass',$values[2],$values[7]];
-    }
+	$path = "scripts";
+	$files = scandir($path);
 
-    return ['fail',null,null];
-}
+	$totalCount = count($files);
+?>
 
-//todo this can be refactored to capture the email from the testFileContent() -- but leave as is.
-function getEmailFromFileContent($string)
-{
-    preg_match('/\s?(([\w+\.\-]+)@([\w+\.\-]+)\.([a-zA-Z]{2,5}))/i', trim($string) , $matches, PREG_OFFSET_CAPTURE);
+<?php
+	$data =  array();
 
-    return @$matches[0][0];
-}
+	$isJson = false;
+	if(isset($_SERVER["QUERY_STRING"])) {
+	 	$queryStr = $_SERVER["QUERY_STRING"];
+	 	$isJson = $queryStr == "json";
+	}
 
-//capture the json version
-if (isset($json) && strtolower($json) == 'json') {
-    header('Content-type: application/json');
+	if ($isJson) {
+		header("Content-Type: application/json");
+		foreach ($files as $key => $fileName) {
 
-    foreach ($files as $file) {
+			$filePath = "./$path/$fileName";
 
-        $extension = explode('.', $file);
+			if (!is_dir($filePath)) {
+				$item = array();
 
-        switch (@$extension[1]) {
-            case 'php':
-                $startScript = "php";
-                break;
-            case 'js':
-                $startScript = "node";
-                break;
-            case 'py':
-                $startScript = "python";
-                break;
-            case 'dart':
-                $startScript = "dart";
-                break;
-            case 'java':
-                $startScript = "java";
+				$runtime = getRuntime("$fileName");
 
-                exec("javac scripts/" . $file);
-                break;
+				// echo $fileName;
+				if ($runtime) {
+					$output = shell_exec("$runtime $filePath 2>&1 << input.txt"); # Execute script and assign result
+					if (is_null($output)) {
 
-            default:
-                $startScript = "php";
-                break;
-        }
+						$item["status"] = "fail";
+						$item["output"] = "%> script produced no output";
+						$item["name"] = $fileName;
 
-        $f = @exec($startScript . " scripts/" . $file);
+					} else {
 
+						if (preg_match($template, $output, $matches)) {
+							$item["status"] = "pass";
+							$item["output"] = $matches[0];
+						} else {
+							$item["status"] = "fail";
+							$item["output"] = $output;
+						}
 
-        $newString = str_ireplace(getEmailFromFileContent($f),' ', str_ireplace(' and email','', $f));
+					}
+					// extract id
+					preg_match($idRegex, $output, $idMatches);
+					if (isset($idMatches[0])) {
+						$item["id"] = trim($idMatches[0]);
+					}
 
-        $regexReturn  = testFileContent($f);
+					// extract name 
+					preg_match($nameRegex, $output, $nameMatches);
+					if (isset($nameMatches[1])) {
+						$item["name"] = trim($nameMatches[1]);	
+	
+					} else {
+						$item["name"] = $fileName;
+					}
 
-        $data[] = [
-            'file' => $file,
-            'output' => htmlspecialchars(trim($newString)),
-            'name' => str_replace('-',' ',$extension[0]),
-            'id' => $regexReturn[1],
-            'email' => trim(getEmailFromFileContent($f)),
-            'language' => $regexReturn[2],
-            'status' => $regexReturn[0],
-        ];
+					// extract language
+					preg_match($languageRegex, $output, $languageMatches);
+					if (isset($languageMatches[1])) {
+						$item["language"] = $languageMatches[1];
+					}
 
-    }
+					// extract email
+					preg_match($emailRegex, $output, $emailMatches);
+					if (isset($emailMatches[0])) {
+						$item["email"] = trim($emailMatches[0]);
+					} else {
+						$item["status"] = "fail";
+						$item["output"] = item["output"]." [no email]";
+					}
 
-    echo json_encode($data);
+					// fileName
+					$item["fileName"] = $fileName;
+				} else {
+					$item["name"] = $fileName;
+					$item["output"] = "%> File type not supported";
+					$item["status"] = "fail";
+				}
 
-}else{
-    if (ob_get_level() == 0) ob_start();
-    ?>
-    <html>
-
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script
-                src="https://code.jquery.com/jquery-3.5.1.min.js"
-                integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-                crossorigin="anonymous"></script>
-    </head>
-
-    <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-                    <span class="navbar-text">
-                        HNGi7 Team Sentry
-                    </span>
-            <div class="float-right text-white">
-                <small>
-                    Leader: <span class="btn btn-sm btn btn-outline-primary">@E.U</span>
-                </small> &nbsp;
-                <small>
-                    FrontEnd: <span class="btn btn-sm btn btn-outline-success">@dona</span>
-                </small> &nbsp;
-                <small>
-                    DevOps: <span class="btn btn-sm btn btn-outline-info">@Fidele</span>
-                </small> &nbsp;
-            </div>
-        </nav>
-    </div>
-    <div class="container">
-
-        <div class="row" style="padding: 6em 0" class="text-center">
-            <div class="col-md-4 text-center">
-                <button type="button" class="btn">
-                    Submitted <span class="badge badge-primary"><?php echo count($files) ?></span>
-                </button>
-            </div>
-            <div class="col-md-4 text-center">
-                <button type="button" class="btn">
-                    Passes <span class="badge badge-success" id="success">0</span>
-                </button>
-            </div>
-            <div class="col-md-4 text-center">
-                <button type="button" class="btn">
-                    Fails <span class="badge badge-danger" id="failure">0</span>
-                </button>
-            </div>
-        </div>
-        <table class="table table-hover center table-striped">
-            <thead class="thead-dark">
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Message</th>
-                <th scope="col">Email</th>
-                <th scope="col">Status</th>
-            </tr>
-            </thead>
-            <tbody>
-
-            <?php
-            $row = 1;
-
-            foreach ($files as $file) {
-
-                $extension = explode('.', $file);
-
-                switch (@$extension[1]) {
-                    case 'php':
-                        $startScript = "php";
-                        break;
-                    case 'js':
-                        $startScript = "node";
-                        break;
-                    case 'py':
-                        $startScript = "python";
-                        break;
-                    case 'dart':
-                        $startScript = "dart";
-                        break;
-                    case 'java':
-                        $startScript = "java";
-
-                        exec("javac scripts/" . $file);
-                        break;
-
-                    default:
-                        $startScript = "php";
-                        break;
-                }
-
-                $f = @exec($startScript . " scripts/" . $file);
+				array_push($data, $item);
+			}
+		}
+		echo json_encode($data);
+		die();
+	}
+?>
 
 
-                $newString = str_ireplace(getEmailFromFileContent($f),' ', str_ireplace('and email',' ', $f));
-                $regexReturn  = testFileContent($f);
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Team Falcon</title>
+	</head>
+		<body>
+			<div class=container>
+			<h1 class="text-center">Team Falcon</h1>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<table class="table">
+				<thead>
+					<tr class="text-center">
+						<th scope="col">Submissions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="col-4 table-info text-center"><?php echo $totalCount; ?></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table table-bordered table-hover">
+				<thead class="thead-dark">
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Name</th>
+						<th scope="col">Output</th>
+						<th scope="col">Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php
 
-//                $data[] = [
-//                    'file' => $file,
-//                    'output' => $newString,
-//                    'name' => str_replace('-',' ',$extension[0]),
-//                    'id' => $regexReturn[1],
-//                    'email' => trim(getEmailFromFileContent($f)),
-//                    'language' => $regexReturn[2],
-//                    'status' => $regexReturn[0],
-//                ];
+						foreach ($files as $key => $fileName) {
+							$filePath = "./$path/$fileName";
 
+							if (!is_dir($filePath)) {
+							$item = array();
 
-                $testEmailVariable = trim(getEmailFromFileContent($f));
-                $status = testFileContent($f)[0];
-                $email = 'No Email';
-                $name = str_replace('-',' ',$extension[0]);
+							$runtime = getRuntime("$fileName");
 
-                if(isset($testEmailVariable) && !empty($testEmailVariable)){
-                    $email = $testEmailVariable;
-                }
+							// echo $fileName;
+							if ($runtime) {
+								$output = shell_exec("$runtime $filePath 2>&1 << input.txt"); # Execute script and assign result
+								if (is_null($output)) {
 
-                if ($status == 'pass') {
+									$item["status"] = "fail";
+									$item["output"] = "%> script produced no output";
+									$item["name"] = $fileName;
 
-                    echo <<<EOL
-                                <tr class="table-success">
-                                <th scope="row">$row</th>
-                                <td><b>$name</b></td>
-                                <td>$newString</td>
-                                <td>
-                                    $email
-                                </td>
-                                <td>$status ✅</td>
-                                </tr>
+								} else {
 
-                             EOL;
-                    ?>
-                    <script>
-                        $('#success').html(Number($('#success').html()) + 1);
-                    </script>
-                    <?php
-                }
-                else {
-                    echo <<<EOL
-                                <tr class="table-danger">
-                                <th scope="row">$row</th>
-                                 <td><b>$name</b></td>
-                                <td>$newString</td>
-                                <td>
-                                    $email
-                                </td>
-                                <td>$status ❌</td>
-                                </tr>
-                            EOL;
+									if (preg_match($template, $output, $matches)) {
+										$item["status"] = "pass";
+										$item["output"] = $matches[0];
+									} else {
+										$item["status"] = "fail";
+										$item["output"] = "%> ".substr($output, 0, 200);
+									}
 
-                    ?>
-                    <script>
-                        $('#failure').html(Number($('#failure').html()) + 1);
-                    </script>
-                    <?php
-                }
-                $row++;
+								}
+								// extract id
+								preg_match($idRegex, $output, $idMatches);
+								if (isset($idMatches[0])) {
+									$item["id"] = $idMatches[0];
+								}
 
-                ob_flush();
-                flush();
-            }
-            ?>
+								// extract name 
+								preg_match($nameRegex, $output, $nameMatches);
+								if (isset($nameMatches[1])) {
+									$item["name"] = $nameMatches[1];
+								} else {
+									$item["name"] = $fileName;
+								}
 
-            </tbody>
-        </table>
+								// extract language
+								preg_match($languageRegex, $output, $languageMatches);
+								if (isset($languageMatches[1])) {
+									$item["language"] = $languageMatches[1];
+								}
 
+								// extract email
+								preg_match($emailRegex, $output, $emailMatches);
+								if (isset($emailMatches[0])) {
+									$item["email"] = $emailMatches[0];
+								} else {
+									$item["status"] = "fail";
+									$ttem["output"] = $item["output"]." [no email]";
+								}
 
-    </div>
+								// fileName
+								$item["fileName"] = $fileName;
+							} else {
+								$item["name"] = $fileName;
+								$item["output"] = "%> File type not supported";
+								$item["status"] = "fail";
+							}
 
-    </body>
+							echo getRow($item);
+						}
+					}
 
-    </html>
-    <?php
-}
+					$counter = 0;
+					function getRow($item) {
+						global $counter;
+						$fail = $item["status"] == "fail";
+						$class = $fail ? "text-danger" : "'text-success'";
+						$code = $fail ? "class=text-danger" : "";
+						$counter++;
+
+						return "
+						<tr>"
+							."<th scope='row'>".$counter."</th>"
+							."<td class=".$class.">".$item["name"]."</td>"
+							."<td><samp ".$code.">".htmlspecialchars($item["output"])."</samp></td>"
+							."<td class=".$class.">".strtoupper($item["status"])."</td>"
+						."</tr>";
+					}
+				?>
+			</tbody>
+		</table>
+		</div>
+	</body>
+</html>
