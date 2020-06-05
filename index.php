@@ -97,17 +97,20 @@ if (isset($json) && strtolower($json) == 'json') {
     <div class="container-fluid">
         <nav class="navbar navbar-dark bg-dark fixed-top">
                     <span class="navbar-text">
-                        HNGi7 Team Sentry
+                        HNGi7 Team Incredible
                     </span>
             <div class="float-right text-white">
                 <small>
                     Leader: <span class="btn btn-sm btn btn-outline-primary">@E.U</span>
                 </small> &nbsp;
                 <small>
-                    FrontEnd: <span class="btn btn-sm btn btn-outline-success">@dona</span>
+                    FrontEnd: <span class="btn btn-sm btn btn-outline-success">@Glowree</span>
                 </small> &nbsp;
                 <small>
-                    DevOps: <span class="btn btn-sm btn btn-outline-info">@Fidele</span>
+                    DevOps: <span class="btn btn-sm btn btn-outline-info">@David</span>
+                </small> &nbsp;
+                <small>
+                    Mobile: <span class="btn btn-sm btn btn-outline-info">@Abbie</span>
                 </small> &nbsp;
             </div>
         </nav>
