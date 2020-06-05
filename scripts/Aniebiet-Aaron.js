@@ -8,6 +8,6 @@ const airdata = {
 	language: "Javascript", 
 };
 
-str_output = `Hello World, this is ${airdata.fname} with HNGi7 ID  ${airdata.id} and email ${airdata.email} using  ${airdata.language} for Stage 2 task.`;
+str_output = `Hello World, this is ${airdata.fname} with HNGi7 ID  ${airdata.id} and email ${airdata.email} using ${airdata.language} for Stage 2 task.`;
 console.log(str_output);
 
