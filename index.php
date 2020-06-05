@@ -34,26 +34,72 @@ if ($json) {
 
     header('Content-type: application/json');
 
-    $count = count($files);
-    $totalRecordPerPage = 50;
-    $page = 1;
-    $totalNumberOfPages = ceil($count / $totalRecordPerPage);
+//    $count = count($files);
+//    $totalRecordPerPage = 50;
+//    $page = 1;
+//    $totalNumberOfPages = ceil($count / $totalRecordPerPage);
+//
+//    if (isset($_GET['page']) && $_GET['page']!="" && $_GET['page']) {
+//        $page = $_GET['page'];
+//    }
+//
+//    $start = ($page - 1) * $totalRecordPerPage;
+//    $end = $start + $totalRecordPerPage;
+//
+//    if($page > $totalNumberOfPages){
+//        echo json_encode(['message' => 'page does not exist']);
+//        return;
+//    }
+//
+//    for($i = $start; $i < $end; $i++){
+//
+//        $extension = @explode('.', $files[$i]);
+//
+//        switch (@$extension[1]) {
+//            case 'php':
+//                $startScript = "php";
+//                break;
+//            case 'js':
+//                $startScript = "node";
+//                break;
+//            case 'py':
+//                $startScript = "python";
+//                break;
+//            case 'dart':
+//                $startScript = "dart";
+//                break;
+//            case 'java':
+//                $startScript = "java";
+//
+//                exec("javac scripts/" . $files[$i]);
+//                break;
+//
+//            default:
+//                $startScript = "php";
+//                break;
+//        }
+//
+//        $f = @exec($startScript . " scripts/" . $files[$i]);
+//
+//
+//        $newString = str_ireplace(getEmailFromFileContent($f),' ', str_ireplace(' and email','', $f));
+//
+//        $regexReturn  = testFileContent($f);
+//
+//        $data[] = [
+//            'file' => $files[$i],
+//            'output' => htmlspecialchars(trim($newString)),
+//            'name' => str_replace('-',' ',$extension[0]),
+//            'id' => $regexReturn[1],
+//            'email' => trim(getEmailFromFileContent($f)),
+//            'language' => $regexReturn[2],
+//            'status' => $regexReturn[0],
+//        ];
+//    }
 
-    if (isset($_GET['page']) && $_GET['page']!="" && $_GET['page']) {
-        $page = $_GET['page'];
-    }
+    foreach ($files as $file) {
 
-    $start = ($page - 1) * $totalRecordPerPage;
-    $end = $start + $totalRecordPerPage;
-
-    if($page > $totalNumberOfPages){
-        echo json_encode(['message' => 'page does not exist']);
-        return;
-    }
-
-    for($i = $start; $i < $end; $i++){
-
-        $extension = @explode('.', $files[$i]);
+        $extension = explode('.', $file);
 
         switch (@$extension[1]) {
             case 'php':
@@ -71,7 +117,7 @@ if ($json) {
             case 'java':
                 $startScript = "java";
 
-                exec("javac scripts/" . $files[$i]);
+                exec("javac scripts/" . $file);
                 break;
 
             default:
@@ -79,7 +125,7 @@ if ($json) {
                 break;
         }
 
-        $f = @exec($startScript . " scripts/" . $files[$i]);
+        $f = @exec($startScript . " scripts/" . $file);
 
 
         $newString = str_ireplace(getEmailFromFileContent($f),' ', str_ireplace(' and email','', $f));
@@ -87,7 +133,7 @@ if ($json) {
         $regexReturn  = testFileContent($f);
 
         $data[] = [
-            'file' => $files[$i],
+            'file' => $file,
             'output' => htmlspecialchars(trim($newString)),
             'name' => str_replace('-',' ',$extension[0]),
             'id' => $regexReturn[1],
@@ -95,6 +141,7 @@ if ($json) {
             'language' => $regexReturn[2],
             'status' => $regexReturn[0],
         ];
+
     }
 
     echo json_encode($data);
