@@ -1,5 +1,5 @@
 //Variable declarations
-const fullname = "Imiebo Godson";
+const fullname = "Godson Imiebo";
 const id = "HNG-04448";
 const email = "imiebo.godson@gmail.com";
 const language = "JavaScript";
