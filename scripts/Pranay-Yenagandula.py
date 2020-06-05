@@ -2,8 +2,13 @@
 
 class display_text:
     def __init__(self):
-        self.output="Hello World, this is Pranay Yenagandula with HNGi7 ID HNG-01542 and email pranay41@gmail.com using Python for stage 2 task."
+        self.my_name="Pranay Yenagandula"
+        self.my_id="HNG-01542"
+        self.my_email="pranay41@gmail.com"
+        self.my_language="Python"
+        
     def show(self):
+        self.output="Hello World, this is {} with HNGi7 ID {} and email {} using {} for stage 2 task.".format(self.my_name,self.my_id,self.my_email,self.my_language)
         print(self.output)
 
 d=display_text()
