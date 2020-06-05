@@ -7,6 +7,6 @@ const userInfo = {
 
 };
 
-const myInfo = `Hello World, this is [${userInfo.userFirstName}] [${userInfo.userLasttName}] with HNGi7 ID [${userInfo.ID}] and email [${userInfo.userEmail}] using [${userInfo.language}] for stage 2 task.`;
+const myInfo = `Hello World, this is ${userInfo.userFirstName} ${userInfo.userLasttName} with HNGi7 ID ${userInfo.ID} and email ${userInfo.userEmail} using ${userInfo.language} for stage 2 task.`;
 
 console.log(myInfo);
