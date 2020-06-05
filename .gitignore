@@ -3,3 +3,4 @@
 .vscode
 scripts/tempCodeRunnerFile.*
 scripts/*.class
+venv
