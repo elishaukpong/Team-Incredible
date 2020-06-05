@@ -1,0 +1,1 @@
+console.log("Hello World, this is Dolapo Balogun with HNGi7 ID HNG-04619 and email lanrechuks@yahoo.com using javascript for stage 2 task.") ;
