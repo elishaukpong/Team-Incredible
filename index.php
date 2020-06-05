@@ -1,9 +1,9 @@
 <?php
-	$template = "/^Hello World, this is [\w\s?-]+ with HNGi7 ID HNG-\d{1,} using \w.* for stage 2 task/";
+	$template = "/^Hello World, this is [\w'\-\s]+ with HNGi7 ID HNG-\d{0,} and email ([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+) using [\w*]+ for stage 2 task/";
 	$idRegex = "/(HNG[-{0,}][\d]+)/";
 	$emailRegex = "/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/i";
-	$languageRegex = "/using \[{0,1}(\w+[^\s]+)/i";
-	$nameRegex = "/this is \[{0,1}([\w+,\s?-]+)]{0,1} with/i";
+	$languageRegex = "/using\s\[{0,1}(\w+[^\s]+)/i";
+	$nameRegex = "/this\sis\s\[{0,1}([\w-'\s]+)\]{0,1} with/i";
 
 	$supported_json = '{
 		"py": "python",
@@ -107,7 +107,7 @@
 						$item["email"] = trim($emailMatches[0]);
 					} else {
 						$item["status"] = "fail";
-						$item["output"] = item["output"]." [no email]";
+						$item["output"] = $item["output"]." [no email]";
 					}
 
 					// fileName
@@ -134,7 +134,7 @@
 	</head>
 		<body>
 			<div class=container>
-			<h1 class="text-center">Team Falcon</h1>
+			<h1 class="text-center">Team Incredible</h1>
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 			<table class="table">
 				<thead>
