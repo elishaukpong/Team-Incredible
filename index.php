@@ -97,7 +97,7 @@ if (isset($json) && strtolower($json) == 'json') {
     <div class="container-fluid">
         <nav class="navbar navbar-dark bg-dark fixed-top">
                     <span class="navbar-text">
-                        HNGi7 Team Incredible
+                        HNGi7 Team Sentry
                     </span>
             <div class="float-right text-white">
                 <small>
