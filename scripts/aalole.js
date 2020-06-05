@@ -1,3 +1,4 @@
-const aaloleHngDetails = (name, id, email, lang) =>
-  `Hello World, this is ${name} with HNGi7 ID ${id} and email ${email} using ${lang} for stage 2 task`;
-aaloleHngDetails("Rasheed Mikail Abiodun", "HNG-02286", "Rasheedabiodun556@yahoo.com", "Javascript");
+const aaloleHngDetails = () =>
+  `Hello World, this is Rasheed Mikail with HNGi7 ID HNG-02286 and email Rasheedabiodun556@yahoo.com using Javascript for stage 2 task`;
+aaloleHngDetails();
+
