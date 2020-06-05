@@ -89,23 +89,45 @@ if (isset($json) && strtolower($json) == 'json') {
     </head>
 
     <body>
-        <div class="container-fluid">
-            <nav class="navbar navbar-dark bg-dark fixed-top">
-                <span class="navbar-text">
-                    HNGi7 Team Sentry
-                </span>
-                <div class="float-right text-white">
-                    <small>
-                        Leader: <span class="btn btn-sm btn btn-outline-primary">@E.U</span>
-                    </small> &nbsp;
-                    <small>
-                        FrontEnd: <span class="btn btn-sm btn btn-outline-success">@</span>
-                    </small> &nbsp;
-                    <small>
-                        DevOps: <span class="btn btn-sm btn btn-outline-info">@David</span>
-                    </small> &nbsp;
-                </div>
-            </nav>
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+                    <span class="navbar-text">
+                        HNGi7 Team Incredible
+                    </span>
+            <div class="float-right text-white">
+                <small>
+                    Leader: <span class="btn btn-sm btn btn-outline-primary">@E.U</span>
+                </small> &nbsp;
+                <small>
+                    FrontEnd: <span class="btn btn-sm btn btn-outline-success">@Glowree</span>
+                </small> &nbsp;
+                <small>
+                    DevOps: <span class="btn btn-sm btn btn-outline-info">@David</span>
+                </small> &nbsp;
+                <small>
+                    Mobile: <span class="btn btn-sm btn btn-outline-info">@Abbie</span>
+                </small> &nbsp;
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+
+        <div class="row" style="padding: 6em 0" class="text-center">
+            <div class="col-md-4 text-center">
+                <button type="button" class="btn">
+                    Submitted <span class="badge badge-primary"><?php echo count($files) ?></span>
+                </button>
+            </div>
+            <div class="col-md-4 text-center">
+                <button type="button" class="btn">
+                    Passes <span class="badge badge-success" id="success">0</span>
+                </button>
+            </div>
+            <div class="col-md-4 text-center">
+                <button type="button" class="btn">
+                    Fails <span class="badge badge-danger" id="failure">0</span>
+                </button>
+            </div>
         </div>
         <div class="container">
 
