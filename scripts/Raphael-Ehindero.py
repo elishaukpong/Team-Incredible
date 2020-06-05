@@ -1,0 +1,7 @@
+email = "raph941@gmail.com"
+full_name = "Ehindero Raphael Ayo"
+hng_id = "HNG-00314"
+language = "python"
+
+output = 'Hello World, this is ' + full_name + ' with HNGi7 ID ' +  hng_id + ' and email ' + email + ' using ' + language + ' for stage 2 task.'
+print(output)

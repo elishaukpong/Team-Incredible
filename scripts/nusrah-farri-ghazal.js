@@ -1,7 +1,3 @@
+var myLanguage = "JavaScript";
 
-var myRice = "Nusrah";
-var myBeans = "Farri-Ghazal";
-var myStew = "HNG-00310";
-var myChicken = "nusrahfarri@gmail.com";
-
-console.log("Hello World, this is " + myRice + myBeans + "with HNGi7 ID " + myStew + "and email " + myChicken + "using JavaScript for stage 2 task.")
+console.log("Hello World, this is Nusrah Farri-Ghazal with HNGi7 ID HNG-00310 and email nusrahfarri@gmail.com using " + myLanguage + " for stage 2 task.")

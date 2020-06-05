@@ -26,3 +26,11 @@ FOLLOW THIS FORMAT RELIGIOUSLY
     git push origin [branchname]
 ```
 - Proceed to your online repository and create a pull request
+
+FILENAME FORMAT
+Firstname-Lastname.EXTENSION
+
+
+SUPPORTED LANGUAGES
+DART | PHP | PYTHON | JAVA | JAVASCRIPT
+
