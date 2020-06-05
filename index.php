@@ -7,7 +7,7 @@ $files = scandir("scripts/");
 
 unset($files[0]);
 unset($files[1]);
-unset($files[2]);
+
 $files = array_values($files);
 
 $data = [];
