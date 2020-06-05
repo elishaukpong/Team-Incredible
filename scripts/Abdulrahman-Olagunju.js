@@ -5,6 +5,6 @@ const deets = {
     lang: "JavaScript"    
 }; 
 
-var displayDeets = `Hello World, this is ${deets.fullname} with HNGi7 ID ${deets.hngId} and ${deets.emailId} using ${deets.lang} for stage 2 task.`
+var displayDeets = `Hello World, this is ${deets.fullname} with HNGi7 ID ${deets.hngId} ${deets.emailId} using ${deets.lang} for stage 2 task.`
     
 console.log(displayDeets);
