@@ -1,8 +1,3 @@
 <?php
-$fullname = "Qozeem Odeniran";
-$id = "HNGi7-01681";
-$language = "PHP";
-$email = "muhdqozeem@gmail.com";
-
-echo "Hello World, this is ".$fullname." with HNGi7 ID ".$id." and email ".$email." using ".$language." for stage 2 task.";
+echo 'Hello World, this is Qozeem Odeniran with HNGi7 ID HNG-01681 and email muhdqozeem@gmail.com using PHP for stage 2 task.';
 ?>
