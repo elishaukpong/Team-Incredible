@@ -31,6 +31,7 @@ function getEmailFromFileContent($string)
 
 //capture the json version
 if ($json) {
+
     header('Content-type: application/json');
 
     $count = count($files);
@@ -97,6 +98,7 @@ if ($json) {
     }
 
     echo json_encode($data);
+
 
 }else{
     if (ob_get_level() == 0) ob_start();
@@ -179,7 +181,7 @@ if ($json) {
                         $startScript = "node";
                         break;
                     case 'py':
-                        $startScript = "python";
+                        $startScript = "python3";
                         break;
                     case 'dart':
                         $startScript = "dart";
@@ -223,23 +225,23 @@ if ($json) {
 
                 if ($status == 'pass') {
 
-                    echo <<<EOL
-                                <tr class="table-success">
-                                <th scope="row">$row</th>
-                                <td><b>$name</b></td>
-                                <td>$newString</td>
-                                <td>
-                                    $email
-                                </td>
-                                <td>$status ✅</td>
-                                </tr>
-
-                             EOL;
-                    ?>
-                    <script>
-                        $('#success').html(Number($('#success').html()) + 1);
-                    </script>
-                    <?php
+//                    echo <<<EOL
+//                                <tr class="table-success">
+//                                <th scope="row">$row</th>
+//                                <td><b>$name</b></td>
+//                                <td>$newString</td>
+//                                <td>
+//                                    $email
+//                                </td>
+//                                <td>$status ✅</td>
+//                                </tr>
+//
+//                             EOL;
+//                    ?>
+<!--                    <script>-->
+<!--                        $('#success').html(Number($('#success').html()) + 1);-->
+<!--                    </script>-->
+<!--                    --><?php
                 }
                 else {
                     echo <<<EOL
