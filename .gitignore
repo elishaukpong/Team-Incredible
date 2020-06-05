@@ -1,2 +1,6 @@
 .DS_Store
 .idea/
+.vscode
+.github
+scripts/tempCodeRunnerFile.*
+scripts/*.class
