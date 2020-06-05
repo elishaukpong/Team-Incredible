@@ -2,9 +2,9 @@
 
 
     
-    function getDetail($hngId, $name, $email, $language){
-        if($hndId != "" || $name != "" || $email != "" || $language != ""){
-            $detail = "Hello World, this is ". $name ." with HNGi7 ID " . $hndId 
+    function getDetail($hngid, $name, $email, $language){
+        if($hngid != "" || $name != "" || $email != "" || $language != ""){
+            $detail = "Hello World, this is ". $name ." with HNGi7 ID " . $hngid 
             . " and email ". $email ." using ". $language. " for stage 2 task.";
             return $detail;
         }
