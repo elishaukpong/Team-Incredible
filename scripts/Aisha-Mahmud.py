@@ -1,5 +1,5 @@
 full_name = "Aisha Mahmud"
-email = "aysherbintmahmud@gmail"
+email = "aysherbintmahmud@gmail.com"
 hngID = "HNG-00969"
 
 
