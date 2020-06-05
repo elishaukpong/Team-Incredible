@@ -1,7 +1,7 @@
 
-xname = "Michael N N Oku"
+xname = "Michael Oku"
 xID = "HNG-03221"
-xlang = "PYTHON"
+xlang = "Python"
 xEmail = "omichaels@usa.com"
 
 def myfunc():
