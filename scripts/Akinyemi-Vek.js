@@ -1,0 +1,1 @@
+console.log('Hello ' + 'World, this is Akinyemi Vek with HNGi7 ID HNG-04050 and email kinyemivek@gmail.com using Java' + 'Script for stage 2 task.')

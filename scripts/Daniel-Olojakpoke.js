@@ -1,4 +1,4 @@
-let fullName = "Olojakpoke, Daniel";
+let fullName = "Daniel Olojakpoke";
 let id = "HNG-02483";
 let language = "javascript";
 let emailAddress = "danielolojakpoke@gmail.com";
