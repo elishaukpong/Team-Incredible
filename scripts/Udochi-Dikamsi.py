@@ -1,5 +1,5 @@
-# This code outputs the HNG sentence for Stage 2
-# Up Team-Sentry!
+# This code outputs the HNG sentence for Stage 2 task
+# Up Team-Incredible!
 
 def print_out_hng_sentence():
     name = 'Udochi Dikamsi'
