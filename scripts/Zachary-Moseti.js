@@ -17,4 +17,3 @@ class sayString{
 // create an instance of the class - object
 
 const internDetails = new sayString('Zachary Moseti','HNG-05091','mosetizachary001@gmail.com','JavaScript');
-console.log(internDetails.say());
