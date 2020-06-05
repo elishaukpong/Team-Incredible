@@ -1,7 +1,11 @@
-const name = "Adeleke Isaiah";
-const id = "HNG-00931";
-const email = "iadeleke01@gmail.com";
-const language = "Javascript";
+const detail =  {
+    name : "Isaiah Adeleke",
+    id: "HNG-00931",
+    email: "iadeleke01@gmail.com",
+    language: "Javascript",
+};
 
-console.log("Hello World, this is " + name + " with HNGi7 ID " + id + " and email " + email +
-" using " + language  + " for stage 2 task." )
+(function (data){
+    let output= `Hello World, this is ${data.name} with HNGi7 ID ${data.id} and email ${data.email} using ${data.language} for stage 2 task`;
+    console.log(output);
+})(detail);
