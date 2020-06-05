@@ -8,6 +8,5 @@ email="owoichogeorge4400@gmail.com"
 
 # create a python dictionary to hold the user details
 def interndata():
-    userdetails = json.dumps("Hello World, this is "+name+" with HNGI7 ID "+id+" and email "+email+" using Python for stage 2 task.")
-    print (userdetails)
+    print("Hello World, this is "+name+" with HNGI7 ID "+id+" and email "+email+" using Python for stage 2 task.")
 interndata()
