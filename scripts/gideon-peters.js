@@ -3,7 +3,7 @@ const hngtask = () => {
 	let details = {
 		firstName: "Gideon",
 		lastName: "Peters",
-		email: "gideonpeters85@gmail.com",
+		email: "gideon.peters@stu.cu.edu.ng",
 		hngID: "HNG-03077",
 		language: "JavaScript",
 	};
