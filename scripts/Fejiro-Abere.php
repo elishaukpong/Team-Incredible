@@ -14,7 +14,7 @@
 
     function intro($name, $ID, $language, $email) {
       //This is the string that would be displayed on the screen
-      return ("Hello World, this is $name with HNGi7 ID $ID using $language for stage 2 task email $email");
+      return ("Hello World, this is $name with HNGi7 ID $ID and email $email using $language for stage 2 task.");
     }
     //Output for my function
     echo intro("Abere Oghenefejiro", "HNG-02591", "PHP", "aberefejiro@gmail.com");
