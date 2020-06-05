@@ -9,4 +9,4 @@ lang = "Python"
 email = "okereke.o@live.com"
 
 #Output text
-print ("Hello World, this is " + fname + " with HNGi7 ID " + id + " and email " + email + " using " + lang + " for stage 2 task")
+print ("Hello World, this is " + fname + " with HNGi7 ID " + id + " and email " + email + " using " + lang + " for stage 2 task.")
