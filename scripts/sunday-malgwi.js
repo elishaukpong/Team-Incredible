@@ -6,6 +6,6 @@ const aboutParticipant = {
 };
 
 function aboutMe () { 
-return `Hello World, this is ${aboutParticipant.fullname} with HNGi7 ID ${aboutParticipant.ID} and email ${aboutParticipant.email} using ${aboutParticipant.language} for stage 2 task`;
+return `Hello World, this is ${aboutParticipant.fullname} with HNGi7 ID ${aboutParticipant.ID} and email ${aboutParticipant.email} using ${aboutParticipant.language} for stage 2 task.`;
 }
 console.log(aboutMe());
