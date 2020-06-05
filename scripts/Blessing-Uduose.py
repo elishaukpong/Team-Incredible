@@ -6,4 +6,3 @@ language = ("Python")
 level = ("for stage 2 task.")
 
 print (intro,"this is",name,"with",id,"and email",email,"using",language,level)
-
