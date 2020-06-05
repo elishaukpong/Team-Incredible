@@ -11,10 +11,12 @@ class Hng {
     );
   }
 }
+
 let myHngDetails = new Hng(
   "Dare Oduwole",
   "HNG-00069",
   "dreywesson@gmail.com",
   "Javascript"
 );
+
 myHngDetails.myDetails();
