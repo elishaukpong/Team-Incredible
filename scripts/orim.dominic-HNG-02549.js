@@ -1,0 +1,1 @@
+console.log("Hello World, this is Orim Dominic with HNGi7 ID HNG-02549 and email orimdominic@gmail.com using JavaScript for stage 2 task");
