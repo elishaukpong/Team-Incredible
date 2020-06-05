@@ -1,0 +1,1 @@
+console.log("Hello World, this is Chibuike Umechukwu with HNGi7 ID HNG-03274 and email umebuike@gmail.com using JavaScript for stage 2 task.");

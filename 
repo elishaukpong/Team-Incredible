@@ -1,0 +1,1938 @@
+[33mcommit 6ac87bd47eeb65fdf988b335904d5e55d494058a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 3337593 beadde9
+Author: SteveOye <seyioyebanjistephen@gmail.com>
+Date:   Fri Jun 5 15:51:53 2020 +0100
+
+    switch to dart
+
+[33mcommit 3337593721a3ae31b9360b7ed82762d30c221576[m
+Author: SteveOye <seyioyebanjistephen@gmail.com>
+Date:   Fri Jun 5 15:50:40 2020 +0100
+
+    switch to dart
+
+[33mcommit 9ac817859d39885171aa4c18860c11c81f2745e9[m
+Author: SteveOye <seyioyebanjistephen@gmail.com>
+Date:   Fri Jun 5 15:49:32 2020 +0100
+
+    siwtch to dart
+
+[33mcommit 871d17514caea7b54f4169a279401503a9fe0b06[m
+Author: SteveOye <seyioyebanjistephen@gmail.com>
+Date:   Fri Jun 5 15:45:21 2020 +0100
+
+    switched to dart
+
+[33mcommit e2822ff51be2cc3cdf1446ff900483c0d425fe2a[m[33m ([m[1;31mupstream/master[m[33m)[m
+Merge: 7579dda 55c8268
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:46:49 2020 +0100
+
+    Merge pull request #160 from funkemi/master
+    
+    Create Olufunke-John-Oluleye.js
+
+[33mcommit 7579dda26161e04d6155581cf3335c85aa023fad[m
+Merge: 9067e80 790d111
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:46:39 2020 +0100
+
+    Merge pull request #107 from alatos2/alabitosin
+    
+    My script
+
+[33mcommit 9067e80a7627863655002d36cf6022f1cebe9ffa[m
+Merge: 23997ef a202203
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:46:20 2020 +0100
+
+    Merge pull request #156 from chydube/master
+    
+    Chidubem-Nwankwo.php
+
+[33mcommit 23997efb00ae79a2199134246b46bd25578fc42d[m
+Merge: 945541b 9a2fd97
+Author: Umeh Michael <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:46:12 2020 +0100
+
+    Merge pull request #120 from Ethical-Ralph/master
+    
+    Updated filename
+
+[33mcommit 945541b08781f63ca794e1071d0ea3126709d5d9[m
+Merge: de6d265 d133e97
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:45:57 2020 +0100
+
+    Merge pull request #148 from Ghvstcode/master
+    
+    Create Oluwatobi-Okewole.js
+
+[33mcommit de6d2659c57c71f078bb6111dc5d1d6b1d656f75[m
+Merge: c4c57fb 2c85469
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:45:48 2020 +0100
+
+    Merge pull request #154 from Abbie-n/master
+    
+    Abbie HNG-00585
+
+[33mcommit c4c57fbf4b5248a2df1a6abb742b24fe47014dfd[m
+Merge: 6dfeccb bdad8a9
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:45:43 2020 +0100
+
+    Merge pull request #147 from rajiss-ctrl/master
+    
+    task 2 commit
+
+[33mcommit 6dfeccb990b37ef15c220671dbb28cf2179a7377[m
+Merge: 4b3dbd1 3648f66
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:45:31 2020 +0100
+
+    Merge pull request #99 from oyedotunsodiq045/patch-1
+    
+    Create Sodiq-Oyedotun.php
+
+[33mcommit beadde94511f2cadfc15eb87fb2c6290d8c88ffc[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: SteveOye <seyioyebanjistephen@gmail.com>
+Date:   Fri Jun 5 15:45:21 2020 +0100
+
+    switched to dart
+
+[33mcommit 4b3dbd16ff11ea308e33658687692676e60e0a78[m
+Merge: 0fc0466 05f7d25
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:45:06 2020 +0100
+
+    Merge pull request #146 from Caculuz-cinks/master
+    
+    Edited Adeleke Isaiah.js
+
+[33mcommit 0fc0466ad0b450b60d725995f0dfae4a2a911043[m
+Merge: 8e8ceee b129750
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:44:53 2020 +0100
+
+    Merge pull request #145 from sanni-anjola/master
+    
+    Added Sanni-Anjola.js to the scripts folder
+
+[33mcommit 8e8ceeec8aa6a87f697a24a2d09e121a20b4f354[m
+Merge: 8fa9577 fc0acb5
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:44:45 2020 +0100
+
+    Merge pull request #111 from Nwosu-Ihueze/ada-ihueze
+    
+    ada-ihueze's script
+
+[33mcommit 2c854691cded430e835b82f7af1816fa43928a80[m
+Author: Abbie <abbie@github.com>
+Date:   Fri Jun 5 15:44:44 2020 +0100
+
+    Abbie HNG-00585
+
+[33mcommit 8fa95774544bc0e4b5a031af02c6d19df1b99da9[m
+Merge: b61774a 99a038c
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:44:21 2020 +0100
+
+    Merge pull request #125 from sodiadrhain/master
+    
+    Adesoji-Awobajo.js
+
+[33mcommit b61774afbceb4246e3b12539e479b6878fd9d620[m
+Merge: b40bf66 335ce08
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:44:08 2020 +0100
+
+    Merge pull request #108 from esiebomaj/master
+    
+    Create Jeremaih-Esieboma.py
+
+[33mcommit 05f7d2549588a11e748a463645b58ac4e2f6b9d7[m
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:44:04 2020 +0100
+
+    Edited Adeleke Isaiah.js
+
+[33mcommit 55c8268c43831a254eaadb8c4f162b5f06d31e1e[m
+Author: funkemi <funkeoluleye@gmail.com>
+Date:   Fri Jun 5 15:44:00 2020 +0100
+
+    Create Olufunke-John-Oluleye.js
+
+[33mcommit b40bf66e2c9f49a23f7573a9eba0a4145515544f[m
+Merge: 2964262 c5d8ae5
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:43:56 2020 +0100
+
+    Merge pull request #136 from aybash/master
+    
+    Add Bashiru-Akintayo Script
+
+[33mcommit a202203997b5e28ad9623f5aff0f396f58ee1377[m
+Author: Chidubem Nwankwo <63216507+chydube@users.noreply.github.com>
+Date:   Fri Jun 5 07:43:37 2020 -0700
+
+    Chidubem-Nwankwo.php
+
+[33mcommit d133e9794c169970a361b885f67cadef100a4b11[m
+Author: Ghvst Code <impoissants@gmail.com>
+Date:   Fri Jun 5 15:43:28 2020 +0100
+
+    Create Oluwatobi-Okewole.js
+
+[33mcommit 29642623f37da1a58af8483b352bb233a174f1b8[m
+Merge: 8878d55 d43fceb
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:43:24 2020 +0100
+
+    Merge pull request #98 from Austin-Deccentric/master
+    
+    feat: added script
+
+[33mcommit b129750642e727861a2ecfc4b081d506526eb714[m
+Author: Sanni Lateef Anjola <sanni.anjola@gmail.com>
+Date:   Fri Jun 5 15:43:08 2020 +0100
+
+    Added Sanni-Anjola.js to the scripts folder
+
+[33mcommit 8878d55cdf387b7cbee8e1126dc19e54c8f5df3e[m
+Merge: 5b2b38c fc0f936
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:42:38 2020 +0100
+
+    Merge pull request #102 from jboy457/master
+    
+    Jboy hng team-incredible task
+
+[33mcommit 5b2b38cd53400aebcb963a5e31009e00b4dcb10b[m
+Merge: ff83ae7 94b1837
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:42:33 2020 +0100
+
+    Merge pull request #97 from petrepan/master
+    
+    incredible pr
+
+[33mcommit bdad8a99f0c0dbbd76c273db995edfb5e9f006ce[m
+Author: rajiss-ctrl <omosanjos77@gmail.com>
+Date:   Fri Jun 5 07:42:26 2020 -0700
+
+    task 2 commit
+
+[33mcommit ff83ae7c7329b6050221917e03a2e33b0af36d3c[m
+Merge: d4b0511 807a270
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:42:21 2020 +0100
+
+    Merge pull request #103 from TheKamsiYoung/master
+    
+    Added Udochi-Dikamsi.py
+
+[33mcommit d4b05116d93bec60340219b780216a35a6420cd6[m
+Merge: 6398934 1712d68
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:42:09 2020 +0100
+
+    Merge pull request #126 from royadeveloper01/prince
+    
+    My name
+
+[33mcommit 1712d6813a3b56c42aaee596f18cf2eb5c2bd65d[m
+Author: Pablo <royadeveloper01@gmail.com>
+Date:   Fri Jun 5 15:38:39 2020 +0000
+
+    Sent task
+
+[33mcommit 63989346eb02b88c352b9e140d548b414de8cd5e[m
+Merge: 57799af d22d64a
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:41:59 2020 +0100
+
+    Merge pull request #96 from IsmailMuhammed2019/master
+    
+    Created Ismail-Muhammed.js
+
+[33mcommit 57799af551224b737c91e4bca58c8018a3142970[m
+Merge: baf77e5 0978037
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:41:26 2020 +0100
+
+    Merge pull request #117 from bidex160/master
+    
+    name changed.
+
+[33mcommit c5d8ae5214b2a7e78f5a12391baf9cba9f05a92c[m
+Author: aybash <ayobamiakintayo2@gmail.com>
+Date:   Fri Jun 5 15:41:18 2020 +0100
+
+    Add Bashiru-Akintayo Script
+
+[33mcommit baf77e57a9d45be2322ee1c14b3f447aec36005d[m
+Merge: 7ead2e7 5723861
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:40:56 2020 +0100
+
+    Merge pull request #114 from Itz-kwaz/master
+    
+    Nkwachi Nwamaghinna
+
+[33mcommit 7ead2e78060a550dac5e477b498b00c60c234cf9[m
+Merge: 41a1697 a80e23d
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:40:36 2020 +0100
+
+    Merge pull request #106 from Dami-js/master
+    
+    added script file for hng-01034
+
+[33mcommit 41a16973e23a707f1ded58e2f150cad03aeae691[m
+Merge: 4d5d348 af0c255
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:40:19 2020 +0100
+
+    Merge pull request #95 from Ritika-Agrawal811/master
+    
+    Ritika-Agrawal.php
+
+[33mcommit 99a038c780ec53ee10b25e1dcdd13eb22706a46e[m
+Author: sodiadrhain <adesojiawobajo@gmail.com>
+Date:   Fri Jun 5 15:40:09 2020 +0100
+
+    Adesoji-Awobajo.js
+
+[33mcommit 4d5d348381b2d3d52d3f76d7ac13d280d5eeaafc[m
+Merge: 610be9d 3b6fbc8
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:39:54 2020 +0100
+
+    Merge pull request #104 from agharayee/master
+    
+    added MyScript
+
+[33mcommit 9a2fd976469d068f98d2e7d9bceee4c368f19533[m
+Author: Akinola Raphael <54055273+Ethical-Ralph@users.noreply.github.com>
+Date:   Fri Jun 5 15:39:16 2020 +0100
+
+    Updated filename
+
+[33mcommit 610be9de25e39620a1717e165836a534fc1baaa9[m
+Merge: c750ad3 5686d13
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:39:14 2020 +0100
+
+    Merge pull request #101 from inioluwadavid/master
+    
+    Task  2 task completed
+
+[33mcommit 0978037f7fb5ffd325047a24a92642042021f8d6[m
+Author: horlabidemi <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:38:38 2020 +0100
+
+    name changed
+
+[33mcommit c750ad30a5c10624f473447d61b193f202478891[m
+Merge: 9790ea9 7286e60
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:38:20 2020 +0100
+
+    Merge pull request #100 from AbdussamiG/master
+    
+    Update Abdussami-Giwa.js
+
+[33mcommit fc0acb57609f566b2ba0240f627b0bd95e76fd5b[m
+Author: Rosemary <59313516+Nwosu-Ihueze@users.noreply.github.com>
+Date:   Fri Jun 5 10:38:10 2020 -0400
+
+    ada-ihueze's script
+
+[33mcommit 9790ea9a2a05b018127ad8a74fa56d62ddb6c540[m
+Merge: fbf4289 4026949
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:37:54 2020 +0100
+
+    Merge pull request #93 from dejiabiola/adedeji-abiola
+    
+    script for Adedeji Abiola
+
+[33mcommit 57d86337fc5398494a43fdb2b3363036c46cb9a7[m
+Author: Akinola Raphael <54055273+Ethical-Ralph@users.noreply.github.com>
+Date:   Fri Jun 5 15:37:52 2020 +0100
+
+    Rename HNG-05150.js to Akinola-Raphael.js
+
+[33mcommit fbf42891bb84732b2f8c4715c9047375bd8a30f1[m
+Merge: cd7658f e6a6b26
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:37:44 2020 +0100
+
+    Merge pull request #92 from CrazyChickenDev/master
+    
+    request to merge script
+
+[33mcommit cd7658f026353d9d67f29c0bc13c46e157e8fe13[m
+Merge: 547db16 5eda6ca
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:37:31 2020 +0100
+
+    Merge pull request #94 from ogunsoladebayo/master
+    
+    ogunsola Usman script added
+
+[33mcommit 547db165d12f317b862b8623a9b43413b57fce15[m
+Author: Elisha Ukpong <ishukpong418@gmail.com>
+Date:   Fri Jun 5 15:37:22 2020 +0100
+
+    Update index.php
+
+[33mcommit d897a7d6ad2df8bbf6f4abe21ba143329c7f6853[m
+Merge: 20ef8c8 1f4e267
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:37:11 2020 +0100
+
+    Merge pull request #86 from devTam/master
+    
+    Added my script for TaskTwo
+
+[33mcommit 807a27054029823c8fd4b1be317c4c375f7b0bcf[m
+Author: TheKamsiYoung <47384524+TheKamsiYoung@users.noreply.github.com>
+Date:   Fri Jun 5 15:36:55 2020 +0100
+
+    Updated Team name in comments
+
+[33mcommit 790d1117bf394f5bb0a75f45f0eaa97edf0eeddb[m
+Author: Alabi Tosin <alabitosin60@gmail.com>
+Date:   Fri Jun 5 15:36:46 2020 +0100
+
+    Initial Task Commit
+
+[33mcommit 20ef8c80377fcf95ba4365b1ec63fad1a2ab54d3[m
+Merge: c36a09b 7916008
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:36:46 2020 +0100
+
+    Merge pull request #88 from McToluene/master
+    
+    Script added
+
+[33mcommit 3648f669c20a80e70943f6ce1bde30637d6bcd0f[m
+Author: Oyedotun Sodiq <oyedotunsodiq045@gmail.com>
+Date:   Fri Jun 5 15:36:44 2020 +0100
+
+    Create Sodiq-Oyedotun.php
+
+[33mcommit a80e23d2ca49c16dd95704691435d3127a8101c3[m
+Author: sjdammy <dami.seweje@cicod.com>
+Date:   Fri Jun 5 15:36:35 2020 +0100
+
+    added script file for hng-01034
+
+[33mcommit c36a09b760a5a0a6eb7470c241c5137b5b1a8ab2[m
+Merge: 2040ae7 a854f9c
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:36:35 2020 +0100
+
+    Merge pull request #71 from Chimdiya1/master
+    
+    added my script
+
+[33mcommit 7286e6034d8d4ec7ee8f7fd5df0d27d021fdad34[m
+Author: AbdussamiG <39584851+AbdussamiG@users.noreply.github.com>
+Date:   Fri Jun 5 15:36:21 2020 +0100
+
+    Update Abdussami-Giwa.js
+
+[33mcommit 2040ae72ca90a2ffa13cbd78e0bf1f2573dbce2b[m
+Merge: 1535724 b17d5f2
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:36:05 2020 +0100
+
+    Merge pull request #79 from blossom-babs/master
+    
+    team incredible first task commit
+
+[33mcommit 1535724570369e8d25a3a345e7244f36a58eaa33[m
+Merge: 63b699f dfe8973
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:35:51 2020 +0100
+
+    Merge pull request #89 from EmmanuelSeyi/master
+    
+    ArinzeAleke(emmanuelaleke.gmail.com)
+
+[33mcommit d22d64a08891382d66697673f51d5441c5988313[m
+Author: IsmailMuhammed2019 <66277089+IsmailMuhammed2019@users.noreply.github.com>
+Date:   Fri Jun 5 15:35:48 2020 +0100
+
+    Created Ismail-Muhammed.js
+
+[33mcommit 63b699f9feb792666e47860fb057607d45bd4b23[m
+Merge: 00d2684 310c543
+Author: Yahaya Hyellamoda Yohanna <yasholma1@gmail.com>
+Date:   Fri Jun 5 15:35:43 2020 +0100
+
+    Merge pull request #81 from pidoxy/master
+    
+    I've added my own script-Pidoxy
+
+[33mcommit d43fceb04051d9559ab25bd7c7c89bcb1b78c414[m
+Author: Austin-Deccentric <caugust19.ac@gmail.com>
+Date:   Fri Jun 5 16:35:37 2020 +0200
+
+    feat: added script
+
+[33mcommit 3b6fbc8241148f4331d87e668a3755f1d655302b[m
+Author: agharayee <agharayee@gmail.com>
+Date:   Fri Jun 5 15:35:31 2020 +0100
+
+    added MyScript
+
+[33mcommit 00d26845eca71458f8ec6ba29a37ef29fca216a8[m
+Author: Tobi Osimosu <Osimosutobi@gmail.com>
+Date:   Fri Jun 5 15:35:30 2020 +0100
+
+    Task Submission
+
+[33mcommit af0c255497aa421e8f0283460a68512300609502[m
+Author: Ritika-Agrawal811 <65513097+Ritika-Agrawal811@users.noreply.github.com>
+Date:   Fri Jun 5 20:05:28 2020 +0530
+
+    Ritika-Agrawal.php
+
+[33mcommit 94b183713b08fce9e17bdc5d7e433f4c71d7aa88[m
+Author: petrepan <peterawotola@gmail.com>
+Date:   Fri Jun 5 15:35:27 2020 +0100
+
+    profile added
+
+[33mcommit 76c007a9242b28f786d03820c7fb1c293b0f368b[m
+Author: TheKamsiYoung <47384524+TheKamsiYoung@users.noreply.github.com>
+Date:   Fri Jun 5 15:35:12 2020 +0100
+
+    Added Dikamsi-Young.py
+
+[33mcommit fc0f936e24c6d987b5173bd4e117d937021b7b6f[m
+Author: jboy457 <55572807+jboy457@users.noreply.github.com>
+Date:   Fri Jun 5 15:35:04 2020 +0100
+
+    Jboy hng team-incredible task
+
+[33mcommit 79f5f7fc165fdfa0a62eec56d51b88506a6fea0e[m
+Merge: f41d4d7 b491be7
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:35:01 2020 +0100
+
+    Merge pull request #91 from nishamehra/master
+    
+    added my script
+
+[33mcommit c509dec994aca8e91930bccbf873e6298a3b57f1[m
+Author: horlabidemi <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:35:00 2020 +0100
+
+    name changed
+
+[33mcommit f41d4d7cd4671d7d530f53f4736b0afb1b4058f9[m
+Merge: bf46d85 68f8294
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:34:56 2020 +0100
+
+    Merge pull request #56 from Xemicolon/master
+    
+    Xemicolon script for stage 2 task
+
+[33mcommit bf46d855012205353d390eacceac6a6089ec307d[m
+Merge: 33b0f38 f0a94f5
+Author: Orim Dominic Adah <orimdominic@gmail.com>
+Date:   Fri Jun 5 15:34:43 2020 +0100
+
+    Merge pull request #90 from sudo-kaizen/HNG-02549
+    
+    chore: add Orim Dominic script
+
+[33mcommit 33b0f389b46f5243b55eeec456b8f38e5b2c80d4[m
+Merge: b425eef 4e9f27f
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:34:32 2020 +0100
+
+    Merge pull request #84 from dolapobabs/mynewtask
+    
+    added my script
+
+[33mcommit 4026949466fb24fc4572bae9463e0fbf553006f7[m
+Author: Adedeji Abiola <adedejiabiola56@gmail.com>
+Date:   Fri Jun 5 15:34:21 2020 +0100
+
+    script for Adedeji Abiola
+
+[33mcommit 5723861130596aca43f170fd654ac4cf50b1323e[m
+Author: Itz-kwaz <nkwachinwamaghinna@gmail.com>
+Date:   Fri Jun 5 15:34:19 2020 +0100
+
+    Nkwachi Nwamaghinna
+
+[33mcommit b425eeffb0ca9f503929c59bd52f1ad2d5520f88[m
+Merge: 1128e7f d48172f
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:34:09 2020 +0100
+
+    Merge pull request #82 from oluwaferanmiadetunji/master
+    
+    oluwaferanmiadetunji's commit
+
+[33mcommit 1128e7fbcd60931de70eedc384424d4addbfc8f1[m
+Merge: 1617d3f a6cd89d
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:34:01 2020 +0100
+
+    Merge pull request #83 from Farhan001/master
+    
+    Added my sript; Farihan-Sodiq.js
+
+[33mcommit 1617d3fbf88391794c5fcdc3c3d68341a22ebd66[m
+Merge: 050592b 6b5db1a
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:33:56 2020 +0100
+
+    Merge pull request #65 from Akpjunior94/patch-1
+    
+    Create Abraham-Akpan.js
+
+[33mcommit 050592b44ad5475b9c148fa64cf4dcb9ce867f72[m
+Merge: 43e5725 a31eb6a
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:33:46 2020 +0100
+
+    Merge pull request #52 from vasanth9/patch-1
+    
+    made changes in file name
+
+[33mcommit e6a6b263d77d8790e62782f4c92533b04e291d82[m
+Author: CrazyChickenDev <dannychukz15@gmail.com>
+Date:   Fri Jun 5 15:33:31 2020 +0100
+
+    final
+
+[33mcommit 43e5725580e2137ff8d82cbde6eb0e5d29803267[m
+Merge: 283249a 823bdd0
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:33:29 2020 +0100
+
+    Merge pull request #85 from sccola/master
+    
+    Olusegun-Olalere script
+
+[33mcommit f0a94f59d360e1531a8ce1d18db7bcc57392af2d[m
+Author: Orim Dominic <orimdominic@gmail.com>
+Date:   Fri Jun 5 10:33:19 2020 -0400
+
+    chore: modify file to fit new format
+
+[33mcommit 5686d13807f4f55327e7445ad4d6244b7d877572[m
+Author: inioluwadavid <63739486+inioluwadavid@users.noreply.github.com>
+Date:   Fri Jun 5 15:33:03 2020 +0100
+
+    Task  2 task completed
+    
+    Task completed using JavaScript
+
+[33mcommit 283249a22c07ce1320f1bc6ea52e0279801a55bd[m
+Merge: 8ebfa10 33083c4
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:33:00 2020 +0100
+
+    Merge pull request #72 from isaacsokari/master
+    
+    isaacsokari-HNG-00024
+
+[33mcommit 8ebfa10b28ee0773ac3dea7f3f3615bc3ffb4110[m
+Merge: 8e82b9c 1f9dcef
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:32:53 2020 +0100
+
+    Merge pull request #58 from Muyiwa-Adebayo/master
+    
+    Muyiwa-Adebayo.js
+
+[33mcommit dfe8973e8f15f63a298959a86551da64598a7f2b[m
+Author: EmmanuelSeyi <emmanuelaleke@gmail.com>
+Date:   Fri Jun 5 15:32:42 2020 +0100
+
+    ArinzeAleke(emmanuelaleke.gmail.com)
+    
+    Team Incredible task
+
+[33mcommit 335ce085023a97fe271476a770c290df99d9789c[m
+Author: Esieboma Jeremiah <57163971+esiebomaj@users.noreply.github.com>
+Date:   Fri Jun 5 15:32:37 2020 +0100
+
+    Create Jeremaih-Esieboma.py
+
+[33mcommit 79160085fc624012f1970027eba3501cf029447b[m
+Author: McToluene <xclusiveniggaz10@live.com>
+Date:   Fri Jun 5 15:32:29 2020 +0100
+
+    Script added
+
+[33mcommit 4e9f27f66599e43d9a845767877cfae86c4930d0[m
+Author: dolapobabs <user@dolapobabs-2.local>
+Date:   Fri Jun 5 15:32:16 2020 +0100
+
+    added my script
+
+[33mcommit 8e82b9c46111f32075433b0e1c43075d9f51a122[m
+Merge: 0fc3b1a 4dee1f2
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:32:14 2020 +0100
+
+    Merge pull request #61 from Razeb12/master
+    
+    Create Razeb-Enyi.py
+
+[33mcommit d48172fd55a63a351519c8db5d01c77ae45cfcfa[m
+Author: Oluwaferanmi <oluwaferanmiadetunji@gmail.com>
+Date:   Fri Jun 5 15:32:13 2020 +0100
+
+    oluwaferanmiadetunji's commit
+
+[33mcommit ad07edf678fb054d27b3ac321575d96f71022754[m
+Author: CrazyChickenDev <dannychukz15@gmail.com>
+Date:   Fri Jun 5 15:32:06 2020 +0100
+
+    final
+
+[33mcommit 0fc3b1aaba2e1eeda57ed2fdba2e67bbd47c566d[m
+Merge: 78a2177 f67c1d5
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:32:06 2020 +0100
+
+    Merge pull request #54 from Olanetsoft/master
+    
+    CREATED Idris-Olubisi.js file with contents
+
+[33mcommit 78a21771b73090d8c6f5721087da91837f98a145[m
+Merge: b366842 9f00f3e
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:31:52 2020 +0100
+
+    Merge pull request #77 from onshimiye/script/onshimiye
+    
+    onshimiye scripts
+
+[33mcommit b491be75aba9540d68d4fcddd19432b4bd7d3e9b[m
+Author: Nisha Mehra <64705808+nishamehra@users.noreply.github.com>
+Date:   Fri Jun 5 07:31:48 2020 -0700
+
+    Add files via upload
+
+[33mcommit b366842586d056cedf9511672e0d9c69a2050df4[m
+Merge: ca3966b a5f2eda
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:31:46 2020 +0100
+
+    Merge pull request #62 from Totoola-Kehinde/kenny
+    
+    file name update Python
+
+[33mcommit ca3966ba25d55ef0c140d7c5d0cd39e668a9cde2[m
+Merge: a7ccbc7 076b7e4
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:31:40 2020 +0100
+
+    Merge pull request #74 from TChukwuleta/master
+    
+    Tobechi-Chukwuleta.py task for team incredible
+
+[33mcommit 076b7e4afd11951c86303737880d8ab31b8c7bd3[m
+Author: Tobechi <tobechichukwuleta125@gmail.com>
+Date:   Fri Jun 5 16:30:27 2020 -0700
+
+    Tobechi-Chukwuleta.py task for team incredible
+
+[33mcommit a7ccbc7bd1b06cddc7acce2201227b8d7d14fb35[m
+Merge: f2cee9f f9c5331
+Author: Umeh Michael <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:31:32 2020 +0100
+
+    Merge pull request #78 from Michaelzy27/master
+    
+    renamed the script to follow naming format
+
+[33mcommit d94ff81c8c2ec1fad606ee54b8c4c060d3c53674[m
+Author: petrepan <peterawotola@gmail.com>
+Date:   Fri Jun 5 15:31:30 2020 +0100
+
+    profile added
+
+[33mcommit 33083c4d557c97edd43770e74fe484d5e58cf0f9[m
+Merge: 2d9d6c5 f2cee9f
+Author: Isaac <isaacsokari@gmail.com>
+Date:   Fri Jun 5 15:31:29 2020 +0100
+
+    Merge pull request #1 from elishaukpong/master
+    
+    update
+
+[33mcommit f9c5331e5b49f07b20ba5a1ac31ef67d698f2a86[m
+Author: Michaelzy27 <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:31:22 2020 +0100
+
+    renamed the script to follow naming format
+
+[33mcommit f2cee9f24bba20c64ac23620bc82007c06575081[m
+Merge: 862dead e875179
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:31:20 2020 +0100
+
+    Merge pull request #76 from MelvinManni/master
+    
+    kosisochukwu-nnamani.js
+
+[33mcommit 862deada6be7594dda1cb778a1dcb0c75a6df9ee[m
+Merge: 7504c59 90b4d05
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:31:12 2020 +0100
+
+    Merge pull request #50 from Myspheet/master
+    
+    Updated my file name
+
+[33mcommit 7504c5996e64783219ec2a8bad9e9322d5190b70[m
+Merge: 045079a f8a1a01
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:31:04 2020 +0100
+
+    Merge pull request #45 from ajdelgados/master
+    
+    Modified ajdelgados file name
+
+[33mcommit 045079a28129e2b48322cb493cadaee03a11e417[m
+Merge: 0f1567e b734727
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:30:56 2020 +0100
+
+    Merge pull request #75 from Stein-Hakase/master
+    
+    Fakhreddine-Hariz.js
+
+[33mcommit feabc85f95316a10286e9bb2f6e213322fc7fbe9[m
+Author: Nisha Mehra <64705808+nishamehra@users.noreply.github.com>
+Date:   Fri Jun 5 07:30:54 2020 -0700
+
+    Delete Nisha-Mehra.py
+
+[33mcommit 0f1567e39274c3cfcb70b23ae412698fdf37f726[m
+Merge: c552129 de3965e
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:30:48 2020 +0100
+
+    Merge pull request #60 from ajawu/master
+    
+    Create david-ajawu.py
+
+[33mcommit 1f4e267082e15958e8a9059c4652da6cf3d0df14[m
+Author: Tammy <tammy.batubo@gmail.com>
+Date:   Fri Jun 5 15:30:42 2020 +0100
+
+    Added my script
+
+[33mcommit 5eda6ca5a5697d8bb73ccf87d6ce8babe806db93[m
+Author: Ogunsola <ogunsoladebayo@gmail.com>
+Date:   Fri Jun 5 15:30:34 2020 +0100
+
+    ogunsola Usman script added
+
+[33mcommit c55212937d3e07c991f8a0cd148683f99b03c0b0[m
+Merge: 2855e44 5b7ec0a
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:30:30 2020 +0100
+
+    Merge pull request #48 from wise1993/master
+    
+    austinwise.js was added to the scripts folder.
+
+[33mcommit de3965e6e630235ac5aef12e2e08e869d1cb4ee2[m
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:30:28 2020 +0100
+
+    Added full stop
+
+[33mcommit a5f2eda0276cf8a8aeceb9ab549364de4b39072b[m
+Author: Totoola Kenny <40864358+Totoola-Kehinde@users.noreply.github.com>
+Date:   Fri Jun 5 15:30:23 2020 +0100
+
+    file name update
+
+[33mcommit 2855e44ee6f331e63b44a1598b5a61176759c2bf[m
+Merge: ff9d516 c39ba96
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:30:20 2020 +0100
+
+    Merge pull request #49 from ginjardev/master
+    
+    updated js script
+
+[33mcommit ff9d5167e1ecb05f899e859eabf3590baf3a1ac2[m
+Merge: 293a7e3 a4f600f
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:30:03 2020 +0100
+
+    Merge pull request #68 from sapphire1996/master
+    
+    Initial commit of Pelumi Adebayo for stage 2 task
+
+[33mcommit b17d5f2f3e504034eacdb68f552b0bade068a7eb[m
+Author: Blossom-Babs <saphashb@gmail.com>
+Date:   Fri Jun 5 15:29:54 2020 +0100
+
+    team incredible first task commit
+
+[33mcommit 293a7e39899f8d93422aebc2a18729ef8561d3eb[m
+Merge: 0e37d10 96d4656
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:29:54 2020 +0100
+
+    Merge pull request #70 from Favalcodes/patch-1
+    
+    Favour-Arua.js
+
+[33mcommit 310c54349bead39db7d74ed213d80db591144564[m
+Author: pidoxy <56538561+pidoxy@users.noreply.github.com>
+Date:   Fri Jun 5 15:29:48 2020 +0100
+
+    I've added my own script
+
+[33mcommit 9f00f3e70d644859f99382866f398b565fac0e86[m
+Author: onshimiye <onshimiye17@gmail.com>
+Date:   Fri Jun 5 16:29:33 2020 +0200
+
+    onshimiye scripts
+
+[33mcommit 823bdd0e924d6f4a192f0393f249de8d996092d8[m
+Author: sccola <sccola2020@gmail.com>
+Date:   Fri Jun 5 15:29:31 2020 +0100
+
+    Olusegun-Olalere script
+
+[33mcommit 0e37d10748fcecd1c4ae9c9db58de2542d290945[m
+Merge: c020b17 07b6f12
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:29:20 2020 +0100
+
+    Merge pull request #69 from Smahrt/master
+    
+    Feat(*): add own js script
+
+[33mcommit bd34dd0dfdc0ec41140b48a9e9202f230b879f30[m
+Author: Nisha Mehra <64705808+nishamehra@users.noreply.github.com>
+Date:   Fri Jun 5 07:29:18 2020 -0700
+
+    Add files via upload
+
+[33mcommit c020b173afa38f9b28f033c86f7d6d254a0f8832[m
+Merge: b7dc7af c0a2940
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:29:01 2020 +0100
+
+    Merge pull request #67 from tiVu99/master
+    
+    Rename File name
+
+[33mcommit e875179bea548a2cccf7840148ba4d021d55cfd2[m
+Author: MelvinManni <melvinnnamani@gmail.com>
+Date:   Fri Jun 5 15:28:51 2020 +0100
+
+    kosisochukwu-nnamani.js
+
+[33mcommit b7dc7af9ea5359413f80801390c6f5f3e39cf9bb[m
+Merge: 28104d8 b55ad20
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:28:48 2020 +0100
+
+    Merge pull request #63 from Oluwatobilobaoke/master
+    
+    added my script and works locally
+
+[33mcommit 96d46560ed24cd58e861265b315c10f6dacd0afc[m
+Author: Favour Godwin Arua <52804141+Favalcodes@users.noreply.github.com>
+Date:   Fri Jun 5 15:28:40 2020 +0100
+
+    Rename scripts/Favalcodes.js to Favour-Arua.js
+
+[33mcommit 28104d8c6a4c7e13bd877173657363888badc673[m
+Merge: 4b35d9e aac93ea
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:28:39 2020 +0100
+
+    Merge pull request #53 from tomiwaajayi/tomiwa-ajayi-script
+    
+    Tomiwa-Ajayi-Script
+
+[33mcommit 4b35d9e5d1fb97436b13493426fd334a0dec8597[m
+Merge: 1478821 888c6d7
+Author: Umeh Michael <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:28:28 2020 +0100
+
+    Merge pull request #64 from Michaelzy27/master
+    
+    Update michaelzy_script.php
+
+[33mcommit 6b5db1ae85f99b4be705288928e562a505496861[m
+Author: Akpan Abraham <56775903+Akpjunior94@users.noreply.github.com>
+Date:   Fri Jun 5 07:28:26 2020 -0700
+
+    Create Abraham-Akpan.js
+
+[33mcommit 888c6d71fb4b85019ca628da3cbb88e0d503f7fe[m
+Author: Michaelzy27 <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:28:23 2020 +0100
+
+    Update michaelzy_script.php
+
+[33mcommit 14788217ceb98328e914028d6a042b9342e6f8de[m
+Merge: 9b0bb15 9352ea7
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:28:23 2020 +0100
+
+    Merge pull request #44 from Phelickz/master
+    
+    awafelix task
+
+[33mcommit c0a2940ceb8b1239c2e09989f013012d857d7f6e[m
+Author: An Vu <43215141+tiVu99@users.noreply.github.com>
+Date:   Fri Jun 5 15:28:21 2020 +0100
+
+    Rename File name
+
+[33mcommit a6cd89db629ee5ee7705c91b9ef94e605a4b770c[m
+Author: Sodiq Farihan <farhansodiq360@gmail.com>
+Date:   Fri Jun 5 15:28:18 2020 +0100
+
+    Added my sript; Farihan-Sodiq.js
+
+[33mcommit bdc09ad50077850f310c26105a88548aec36a4cf[m
+Author: CrazyChickenDev <dannychukz15@gmail.com>
+Date:   Fri Jun 5 15:28:12 2020 +0100
+
+    mistake
+
+[33mcommit 9b0bb15c503c55c5fb45818aae4c19bcf3ad712f[m
+Merge: e76c7ad ec1708e
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:28:06 2020 +0100
+
+    Merge pull request #57 from fosajeff/master
+    
+    add script
+
+[33mcommit e76c7ad25db833862698745f9715862206d20847[m
+Merge: 0f484b1 2f39c7c
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:28:00 2020 +0100
+
+    Merge pull request #59 from BaZpr/master
+    
+    my update
+
+[33mcommit 0f484b1c2a560ba957b1101581d0390449ceb4d1[m
+Merge: 988fa32 b168daf
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:27:35 2020 +0100
+
+    Merge pull request #55 from AbdussamiG/master
+    
+    Update and rename Abdussami_Giwa-HNG-03734-nodejs.js to Abdussami-Giw…
+
+[33mcommit 0475d98ba912614877609cf27199ff29bb9de7c2[m
+Author: Ajawu David <ajawudavid@gmail.com>
+Date:   Fri Jun 5 15:27:29 2020 +0100
+
+    Create david-ajawu.py
+
+[33mcommit a854f9c83b2e9d4819b97a8612ca8971cd21db80[m
+Author: chimdia <fortunechimdiya@gmail.com>
+Date:   Fri Jun 5 15:27:28 2020 +0100
+
+    added my script
+
+[33mcommit 988fa32959322fb0e8ab65a69f16d1af1ab77a4f[m
+Merge: d841496 d9e7fbc
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:27:21 2020 +0100
+
+    Merge pull request #46 from bidex160/master
+    
+    initial commit
+
+[33mcommit 2d9d6c5f63176bc7248d48b100a1e79464a0e64a[m
+Author: Isaac Sokari <isaacsokari@gmail.com>
+Date:   Fri Jun 5 15:27:11 2020 +0100
+
+    isaacsokari-HNG-00024
+
+[33mcommit b55ad2013dc54fe104ff086b71b07b42e3d072d7[m
+Author: Okekunle Oluwatobiloba <okekunletobi@gmail.com>
+Date:   Fri Jun 5 15:27:00 2020 +0100
+
+    added my script and works locally
+
+[33mcommit b7347275fcd8daeb7990698b5e368cbd0fda2037[m
+Author: Stein-Hakase <62748317+Stein-Hakase@users.noreply.github.com>
+Date:   Fri Jun 5 21:26:52 2020 +0700
+
+    Changing file name
+
+[33mcommit d841496f989f4a61186efe4a5adde72cd7f4b9b4[m
+Merge: 2230de1 252ddf4
+Author: Umeh Michael <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:26:44 2020 +0100
+
+    Merge pull request #51 from Michaelzy27/master
+    
+    Michaelzy's script
+
+[33mcommit b307fbabc6c525fb31908521f3331532b24d2d0d[m
+Author: CrazyChickenDev <dannychukz15@gmail.com>
+Date:   Fri Jun 5 15:26:44 2020 +0100
+
+    done
+
+[33mcommit 68f82949778a78657e9f2f938f848ba89673a213[m
+Author: Xemicolon <1vibenation@gmail.com>
+Date:   Fri Jun 5 15:26:39 2020 +0100
+
+    Xemicolon script for stage 2 task
+
+[33mcommit 9471631ed1f83094dbed94d28b4a48ca329f7f67[m
+Author: Totoola Kenny <40864358+Totoola-Kehinde@users.noreply.github.com>
+Date:   Fri Jun 5 15:26:39 2020 +0100
+
+    file name update Python
+
+[33mcommit 2230de194c88856e64cb7d196a70a253ab1a2904[m
+Merge: 40828c7 0015cff
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:26:37 2020 +0100
+
+    Merge pull request #47 from KelvinAkpobome/master
+    
+    my script
+
+[33mcommit a31eb6a35fe7f988bf325d07593d51ecc8498776[m
+Author: vasanthkumar <42891954+vasanth9@users.noreply.github.com>
+Date:   Fri Jun 5 19:56:35 2020 +0530
+
+    made changes in file name
+
+[33mcommit ec1708e54a4e65e281790dc1506cd2fc3f8cfc1b[m
+Author: Jeffrey <okoobohefosa@gmail.com>
+Date:   Fri Jun 5 15:26:25 2020 +0100
+
+    add script
+
+[33mcommit 40828c7b64bbc47ebb53744153ccbf1331dd96a0[m
+Merge: 1e04c93 782f766
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:26:21 2020 +0100
+
+    Merge pull request #42 from Yasholma/master
+    
+    Yahaya Yohanna's Script
+
+[33mcommit 1e04c931042928875c1cab8e9cf40d8fd8f7230d[m
+Merge: cb3723a ff09f6d
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:26:04 2020 +0100
+
+    Merge pull request #43 from Caculuz-cinks/master
+    
+    Added Adeleke Isaiah.js
+
+[33mcommit b168daf8bffb43b80c9e61c31b26024109fdce25[m
+Author: AbdussamiG <39584851+AbdussamiG@users.noreply.github.com>
+Date:   Fri Jun 5 15:26:03 2020 +0100
+
+    Update and rename Abdussami_Giwa-HNG-03734-nodejs.js to Abdussami-Giwa.js
+
+[33mcommit cb3723a9988f52d6c60d54125d68c1deca365abb[m
+Merge: 1c86b7f 6b798f6
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:25:50 2020 +0100
+
+    Merge pull request #39 from dgovnor/master
+    
+    feature: script file
+
+[33mcommit 1f9dcef6afc4c7fcb88ed16d14860655d0638be7[m
+Author: Obamaolu <muyiwa_david36@yahoo.com>
+Date:   Fri Jun 5 15:25:36 2020 +0100
+
+    Merge: Added Muyiwa-Adebayo.js with the required detail for the team task
+
+[33mcommit 1c86b7f89266ad188fc3e92e8ca0677ad42d905f[m
+Merge: 0dc5942 0d573a4
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:25:30 2020 +0100
+
+    Merge pull request #40 from AjibsBaba/AjibsBaba
+    
+    Add Python Script
+
+[33mcommit 2f39c7cd62caf8646f8139fe281ac207db2c7858[m
+Author: BaZz <bazuaye50@gmail.com>
+Date:   Fri Jun 5 15:25:25 2020 +0100
+
+    Delete BaZz.js
+
+[33mcommit 90b4d054e4350397954cdf0fd4308f1d5bd3347c[m
+Author: Myspheet <myspheet@gmail.com>
+Date:   Fri Jun 5 15:25:15 2020 +0100
+
+    Updated my file name
+
+[33mcommit f8a1a01c229b31837717fe12d1d09c0346485c88[m
+Author: Arturo J. Delgado S <ajdelgados@gmail.com>
+Date:   Fri Jun 5 10:25:13 2020 -0400
+
+    Modified ajdelgados file name
+
+[33mcommit 4dee1f252931e29f6eb841137b36280fdb29e96d[m
+Author: Razeb12 <62119650+Razeb12@users.noreply.github.com>
+Date:   Fri Jun 5 15:25:10 2020 +0100
+
+    Create Razeb-Enyi.py
+    
+    Used Python langugage
+
+[33mcommit 5b7ec0abdd1d69c368865e2f4a1f1e7ee93ee928[m
+Author: austinwise1993 <austinwise1993@gmail.com>
+Date:   Fri Jun 5 15:25:10 2020 +0100
+
+    austinwise.js was added to the scripts folder.
+
+[33mcommit 252ddf435e19289ccc758ab9e139c0ee1c047ad6[m
+Merge: e76722f 0dc5942
+Author: Umeh Michael <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:25:10 2020 +0100
+
+    Merge pull request #1 from elishaukpong/master
+    
+    Update
+
+[33mcommit 78cc375b191ed2efc82af2908c3c48e017cf38f7[m
+Author: BaZz <bazuaye50@gmail.com>
+Date:   Fri Jun 5 15:25:00 2020 +0100
+
+    i changed my file name to match the format
+
+[33mcommit 0dc5942c90a6e4154315f4ef08be9283e9dcfc8e[m
+Merge: 31346b7 104ebbe
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:24:59 2020 +0100
+
+    Merge pull request #41 from VikasRathore162/patch-1
+    
+    create a python file , Team Incredible
+
+[33mcommit f67c1d58eceec46f7e67ef24e8886d840bfc8278[m
+Author: olanetsoft <heedris2olubisi@gmail.com>
+Date:   Fri Jun 5 15:24:56 2020 +0100
+
+    CREATED Idris-Olubisi.js file with contents
+
+[33mcommit c39ba9641f22fcac09dfcd58f3c8e62e22858b74[m
+Author: arthurmatic <arthurshur@gmail.com>
+Date:   Fri Jun 5 15:24:55 2020 +0100
+
+    updated js script
+
+[33mcommit 31346b73ef2f37b95c444a742298f58127e33370[m
+Merge: 6399f17 1329886
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:24:36 2020 +0100
+
+    Merge pull request #35 from wiamer/master
+    
+    Updated my name
+
+[33mcommit 9352ea729c79d25b2b07fe6ce0cc548afbb89ad0[m
+Author: Phelickz <felixhope30@gmail.com>
+Date:   Fri Jun 5 07:24:31 2020 -0700
+
+    team incredible task
+
+[33mcommit 6399f1776f00a05d4f110d5cbaf56ce9e4d747a0[m
+Merge: 3e03e66 80a6ca2
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:24:28 2020 +0100
+
+    Merge pull request #36 from Favalcodes/master
+    
+    Favalcodes.js
+
+[33mcommit 0015cff0fcdd747abde4c0fd7865dd58a5d8abf7[m
+Author: kelvinakpobome <kelvinakpobome@gmail.com>
+Date:   Fri Jun 5 15:24:23 2020 +0100
+
+    Kelvinakpobome script
+
+[33mcommit 3e03e66b4e08246845afb443c2fbe1ea5d1587e6[m
+Merge: e134585 8b47bed
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:24:07 2020 +0100
+
+    Merge pull request #38 from Ethical-Ralph/master
+    
+    HNG-05150 script
+
+[33mcommit e134585cf39b3e24fd79828920dcf565202bd002[m
+Merge: 1b062b5 a205c80
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:23:44 2020 +0100
+
+    Merge pull request #33 from ekiira/master
+    
+    My HNG script
+
+[33mcommit 1b062b50276a5ad9ded3392c070762431d9f58ca[m
+Merge: d92dcbd 5fceccf
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:23:36 2020 +0100
+
+    Merge pull request #37 from tosinibrahim96/chore/team-incredible-task
+    
+    complete team incredible task
+
+[33mcommit 104ebbefa2a4c292907199d2bd1725fc5a61203b[m
+Author: Vikas Rathore <55776424+VikasRathore162@users.noreply.github.com>
+Date:   Fri Jun 5 19:53:30 2020 +0530
+
+    create a python file , Team Incredible
+
+[33mcommit d92dcbdc0d54ccbb1cd11ab8be2cc2530d389d94[m
+Merge: dbff647 dbec744
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:23:29 2020 +0100
+
+    Merge pull request #29 from oyewalekehinde/master
+    
+    Kehinde1999_script
+
+[33mcommit 07b6f1253da6d70410a41559b91a9fa416f9a81d[m
+Author: Smahrt <msmahrt@gmail.com>
+Date:   Fri Jun 5 15:23:27 2020 +0100
+
+    feat(*): add own js script
+
+[33mcommit dbff647f49fa2291405300d78b0aeaadd26c1957[m
+Merge: 8775313 acc0f2a
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:23:07 2020 +0100
+
+    Merge pull request #31 from SteveOye/master
+    
+    added steveOS script
+
+[33mcommit 877531388832fe2a032690fa54faac09462e79a5[m
+Merge: b8d2e08 216c808
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:22:51 2020 +0100
+
+    Merge pull request #34 from bauxitex3/master
+    
+    BigBello
+
+[33mcommit a4f600f1fa5c35edbbc9b9327352f33580a3422b[m
+Author: Pelumi Adebayo <adepelumi1996@gmail.com>
+Date:   Fri Jun 5 15:22:36 2020 +0100
+
+    Initial commit of Pelumi Adebayo for stage 2 task
+
+[33mcommit b8d2e084445dac19d9bf2640afcb033da2d15214[m
+Merge: cd258be b0bc4ac
+Author: Oluwatosin Jimoh <57687166+ekiira@users.noreply.github.com>
+Date:   Fri Jun 5 15:22:36 2020 +0100
+
+    Merge pull request #32 from Ojay-dev/master
+    
+    Add Ojonugwa-Alikali.js to script folder
+
+[33mcommit cd258be5c1bf6cd711fde731a7b92a254d3d09cd[m
+Merge: 485989a cf7126e
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:22:30 2020 +0100
+
+    Merge pull request #28 from Hybee22/Hybee-HNG-01074
+    
+    Ibrahim-Adekunle script
+
+[33mcommit 6b798f685ecf8adb48573836c1d468b34aed9a1c[m
+Author: jude-Ezekiel <billyjude007@gmail.com>
+Date:   Fri Jun 5 15:22:29 2020 +0100
+
+    feature: script file
+
+[33mcommit 782f766cfdfab2edfde8f79c7cc95f901465202c[m
+Author: Yahaya <yasholma1@gmail.com>
+Date:   Fri Jun 5 15:22:24 2020 +0100
+
+    Yahaya Yohanna's Script
+
+[33mcommit 485989a3425671f01b83f78732fadfa38cca33de[m
+Merge: eb3a2c3 4f26bf0
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:22:22 2020 +0100
+
+    Merge pull request #27 from AbdussamiG/master
+    
+    Abdussami Giwa Task 2 submission
+
+[33mcommit aac93ea6ce8c474a83a795d7009a4aca3bf825a7[m
+Author: Tomiwa97 <ajayitomiwa71@gmail.com>
+Date:   Fri Jun 5 15:22:17 2020 +0100
+
+    Tomiwa-Ajayi-Script
+
+[33mcommit eb3a2c37be2eeda5302fb52ad7cac60bd0474b90[m
+Merge: 1a89c31 4fede17
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:22:08 2020 +0100
+
+    Merge pull request #25 from BaZpr/master
+    
+    RELIGIOUSLY followed the format
+
+[33mcommit 1a89c31c642e4d794534a9110fce5e5dcb34cff1[m
+Merge: 942cd51 08e2a67
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:21:58 2020 +0100
+
+    Merge pull request #24 from donaghosh/master
+    
+    My submission
+
+[33mcommit 132988680fa22b1205c5dbaaaba2dbfcaa8919b7[m
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:21:51 2020 +0100
+
+    Updated my name
+
+[33mcommit 942cd518c5578f31391ebd24f6360fcff4c35d17[m
+Merge: 000a751 3116290
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:21:49 2020 +0100
+
+    Merge pull request #26 from ajdelgados/master
+    
+    Modified ajdelgados script
+
+[33mcommit 80a6ca253001966b7c7ecee3eb39e95a70740c79[m
+Author: Favour Godwin Arua <52804141+Favalcodes@users.noreply.github.com>
+Date:   Fri Jun 5 15:21:42 2020 +0100
+
+    Create Favalcodes.js
+
+[33mcommit 8b47bedac3660adf7efe5783f2e7989da51e1980[m
+Author: Akinola Raphael <54055273+Ethical-Ralph@users.noreply.github.com>
+Date:   Fri Jun 5 15:21:41 2020 +0100
+
+    Create HNG-05150.js
+
+[33mcommit 5fceccf6fe1ac20849d47294bb9a88eaaaf6ede0[m
+Author: tosinibrahim96 <tosinibrahim96@gmail.com>
+Date:   Fri Jun 5 15:21:38 2020 +0100
+
+    complete team incredible task
+
+[33mcommit 000a751a6d8ddee9d53958c3b5016132ced71b5b[m
+Merge: 348bbb1 d2d5460
+Author: Tajudeen Wariz <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:21:22 2020 +0100
+
+    Merge pull request #30 from timmyCoder/master
+    
+    daniel-olatoye.py
+
+[33mcommit e6c828ccb3e82b6c334707e464f748715b363c5d[m
+Author: Orim Dominic <orimdominic@gmail.com>
+Date:   Fri Jun 5 10:21:08 2020 -0400
+
+    chore: add Orim Dominic script
+
+[33mcommit 216c808dd7047c24bfee5a50b3badf011334702c[m
+Author: bauxitex3 <66308671+bauxitex3@users.noreply.github.com>
+Date:   Fri Jun 5 10:20:55 2020 -0400
+
+    BigBello
+
+[33mcommit 348bbb13c6b53a5d38b2302b0bb4682c0de8fa78[m
+Merge: 7f4c820 f92f424
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:20:48 2020 +0100
+
+    Merge pull request #20 from nusrah/master
+    
+    Added script for @nusrah
+
+[33mcommit b0bc4acbbe51af2ce9c418a1c084d7c0efbfd712[m
+Author: Alikali Ojonugwa <alikali.ojonugwajustice@gmail.com>
+Date:   Fri Jun 5 15:20:21 2020 +0100
+
+    Add Ojonugwa-Alikali.js to script folder
+
+[33mcommit 7f4c8202c57e5b8df54a5aa7531cd69e70509285[m
+Merge: 174ef91 201ae54
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:20:13 2020 +0100
+
+    Merge pull request #23 from Frost199/eleam-emmanuel
+    
+    chore: Adding my file and necessary clean up
+
+[33mcommit a205c8048e4accc161dff5be364dc61324bff671[m
+Author: Tosin Jimoh <jayoluwatosin@gmail.com>
+Date:   Fri Jun 5 15:20:07 2020 +0100
+
+    My script
+
+[33mcommit 0d573a4a241c4fd98cc2369155f6cf809cb154d1[m
+Author: AjibsBaba <samuelajibade22@gmail.com>
+Date:   Fri Jun 5 15:20:04 2020 +0100
+
+    Add Script
+
+[33mcommit 421da603c42410dedf81025d1b2821f181455596[m
+Author: bauxitex3 <66308671+bauxitex3@users.noreply.github.com>
+Date:   Fri Jun 5 07:19:59 2020 -0700
+
+    Delete bigbello.py
+
+[33mcommit 174ef915c9077a490fb464822cd554bd4a524a2a[m
+Merge: 8083ea7 e80751e
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:19:32 2020 +0100
+
+    Merge pull request #22 from wiamer/master
+    
+    Task Code
+
+[33mcommit dbec744db2ea66bfd8c52ef4381aa93cf5e534c4[m
+Author: Oyewale Kehinde <42590579+oyewalekehinde@users.noreply.github.com>
+Date:   Fri Jun 5 15:19:31 2020 +0100
+
+    Create Kehinde1999.js
+
+[33mcommit d2d5460f13f489e229d552a142326c6aee159e71[m
+Author: timmyCoder <olatoyedan@gmail.com>
+Date:   Fri Jun 5 15:19:26 2020 +0100
+
+    daniel-olatoye.py
+
+[33mcommit 8083ea7d2a65a0fdb96ad1b370679d847168c7ae[m
+Merge: 352cebe 01f6345
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:19:22 2020 +0100
+
+    Merge pull request #21 from NdubuisiJr/master
+    
+    Added NdubuisiJr.js
+
+[33mcommit fb46e61727bb34cc82cc2cc362c928630587d23b[m
+Author: Stein-Hakase <fakhriddine.hariz@gmail.com>
+Date:   Fri Jun 5 21:19:08 2020 +0700
+
+    Team incredible marathon code challenge
+
+[33mcommit ff09f6dda091bb4f647fec92f1696b141d2b139e[m
+Author: Adeleke Isaiah <iadeleke01@gmail.com>
+Date:   Fri Jun 5 15:19:05 2020 +0100
+
+    Added Adeleke Isaiah.js
+
+[33mcommit 352cebe34510bf12fcae2d9c04440ab738b4e5c4[m
+Merge: dcafd85 3f23dcd
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:18:58 2020 +0100
+
+    Merge pull request #19 from latech13/master
+    
+    latech script
+
+[33mcommit 08e2a6709576fa32a88679809b51d8db82fe830b[m
+Author: donaghosh <donaghosh3110@gmail.com>
+Date:   Fri Jun 5 19:48:55 2020 +0530
+
+    My submission
+
+[33mcommit 4f26bf01279c28978dc1c757ace350991cdab618[m
+Author: AbdussamiG <39584851+AbdussamiG@users.noreply.github.com>
+Date:   Fri Jun 5 15:18:52 2020 +0100
+
+    Abdussami Giwa Task 2 submission
+
+[33mcommit dcafd85f647a8978f59bc17d1def7ea1fb9fcc39[m
+Merge: e8064e2 c5dd3eb
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:18:51 2020 +0100
+
+    Merge pull request #18 from DanteFrank/master
+    
+    Script Created
+
+[33mcommit 3116290d9da7277754fb7c120b6fcdf897989d64[m
+Author: Arturo J. Delgado S <ajdelgados@gmail.com>
+Date:   Fri Jun 5 10:18:49 2020 -0400
+
+    ajdelgados script
+
+[33mcommit acc0f2a28cc142ec8a513a8b2316b72cdbaf55d7[m
+Author: SteveOye <seyioyebanjistephen@gmail.com>
+Date:   Fri Jun 5 15:18:45 2020 +0100
+
+    add steveOS script
+
+[33mcommit a5aa02009b0df42e76b5c89b178eeb453742f3b0[m
+Author: Tosin Jimoh <jayoluwatosin@gmail.com>
+Date:   Fri Jun 5 15:18:35 2020 +0100
+
+    My script
+
+[33mcommit e8064e2b8f6d558bc2208b297d03571280e64fac[m
+Merge: 131d55e 6af62d4
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:18:27 2020 +0100
+
+    Merge pull request #16 from fidele000/master
+    
+    my codes Team-Increadible
+
+[33mcommit cf7126e39c4dab829a3e8be293cac6037125e5c0[m
+Author: Ibrahim Adekunle <adefemi101@gmail.com>
+Date:   Fri Jun 5 15:18:21 2020 +0100
+
+    Ibrahim-Adekunle script
+
+[33mcommit 131d55e4f2889203942b0d1d6ce73be3b9818559[m
+Merge: 38fc1d9 5830be7
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:18:20 2020 +0100
+
+    Merge pull request #15 from ginjardev/master
+    
+    my js script
+
+[33mcommit 4fede177b3d789d8a8bc9a8c1027811a27e99a12[m
+Author: BaZz <bazuaye50@gmail.com>
+Date:   Fri Jun 5 15:18:13 2020 +0100
+
+    RELIGIOUSLY followed the format
+
+[33mcommit 38fc1d9df9e82a7253d2ed51cb3fb7459b43c69d[m
+Merge: 743364e a51732b
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:18:05 2020 +0100
+
+    Merge pull request #17 from Xemicolon/master
+    
+    Xemicolon_script
+
+[33mcommit e80751ea7e5b9729e166619a07c1381e85b2d7c5[m
+Author: Wiamer <erem.amarachi@gmail.com>
+Date:   Fri Jun 5 15:18:04 2020 +0100
+
+    Task Code
+
+[33mcommit d9e7fbc0f4f247728d2df3dbb522e525fc179d8d[m
+Author: horlabidemi <thabidemi@gmail.com>
+Date:   Fri Jun 5 15:18:03 2020 +0100
+
+    initial commit
+
+[33mcommit 01f6345b5bf81b4c2508d4a5f7c8436f59e23c58[m
+Author: NdubuisiJr <ndubuisijrchukuigwe@gmail.com>
+Date:   Fri Jun 5 15:17:52 2020 +0100
+
+    Added NdubuisiJr.js
+
+[33mcommit 743364e378a8c3055acf03148824dfbe5eb2675a[m
+Merge: 8608f9f e62eff3
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:17:45 2020 +0100
+
+    Merge pull request #12 from wintercameearly/patch-1
+    
+    Adding my submission
+
+[33mcommit f92f4247e6dc10f7b15b6ce6906bc4ca35d4939c[m
+Author: Nusrah Farri-Ghazal <nusrahfarri@gmail.com>
+Date:   Fri Jun 5 15:17:43 2020 +0100
+
+    Add files via upload
+
+[33mcommit 8608f9f7519de4438a0092baf50a134a786e827d[m
+Merge: cf9fe23 d3054bb
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:17:37 2020 +0100
+
+    Merge pull request #13 from ajdelgados/master
+    
+    ajdelgados script
+
+[33mcommit cf9fe23d1aa0fe64d068541fda0cfca5c850f68a[m
+Merge: 1f8f426 e290a55
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:17:29 2020 +0100
+
+    Merge pull request #14 from Totoola-Kehinde/kenny
+    
+    first commit Python
+
+[33mcommit a51732b33eecf1fde92fe9a05a54ad2f8a3d5bfe[m
+Author: Xemicolon <1vibenation@gmail.com>
+Date:   Fri Jun 5 15:17:19 2020 +0100
+
+    Xemicolon_script
+
+[33mcommit c5dd3eb0e2da1c5a1c1fe23ea65c9c9750d95fe5[m
+Author: David Dante Frank <45837897+DanteFrank@users.noreply.github.com>
+Date:   Fri Jun 5 15:17:03 2020 +0100
+
+    Script Created
+
+[33mcommit 11e9779fff8fce8c973a73ac368972b0b8315c56[m
+Author: bauxitex3 <66308671+bauxitex3@users.noreply.github.com>
+Date:   Fri Jun 5 10:17:01 2020 -0400
+
+    BigBello
+
+[33mcommit 1f8f42630817e8f08c331b934d529f8a0852881a[m
+Merge: 751dcd1 2437908
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:16:58 2020 +0100
+
+    Merge pull request #11 from vasanth9/master
+    
+    team incredible task - Vasanth9
+
+[33mcommit 6af62d4219fb091e7eba2e0cd55f2b1d49dd773e[m
+Author: fidele000 <fihacker000@gmail.com>
+Date:   Fri Jun 5 17:16:24 2020 +0300
+
+    my codes Team-Increadible
+
+[33mcommit 3f23dcd7b5e720659e732d8960c4cc00e71bee86[m
+Author: rajilateef <rajilateef.rl@gmail.com>
+Date:   Fri Jun 5 15:16:08 2020 +0100
+
+    latech script
+
+[33mcommit 751dcd1f50cad67fe23b8fcf3bb2f588f0ca275a[m
+Merge: 213d3f2 e942947
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:16:03 2020 +0100
+
+    Merge pull request #10 from anubabajide/master
+    
+    Create HNG-00596.py
+
+[33mcommit e62eff3cecc0f3f3318b4c16cadb64e2336a5c21[m
+Author: wintercameearly <47320343+wintercameearly@users.noreply.github.com>
+Date:   Fri Jun 5 15:15:56 2020 +0100
+
+    Adding my submission
+
+[33mcommit 5830be77400588ce3dec71457ee20e38294e77e2[m
+Author: arthurmatic <arthurshur@gmail.com>
+Date:   Fri Jun 5 15:15:50 2020 +0100
+
+    my js script
+
+[33mcommit d3054bbceeb33b4e7b2ebbedc969b7d37a0e5836[m
+Author: Arturo J. Delgado S <ajdelgados@gmail.com>
+Date:   Fri Jun 5 10:15:42 2020 -0400
+
+    ajdelgados script
+
+[33mcommit 213d3f2922f0c3cd8183b08e168afb25c8aa3781[m
+Merge: 20bc55f e546bce
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:15:36 2020 +0100
+
+    Merge pull request #9 from Taiwodave/master
+    
+    Taiwodave-HNG-03847 script
+
+[33mcommit 20bc55f72239baa72ec5ad91d2ba2e38b9592e92[m
+Merge: 7052f70 1fb1af6
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:15:11 2020 +0100
+
+    Merge pull request #4 from Generalsoi/master
+    
+    Soi added his script
+
+[33mcommit 7052f70511540ea3fd21d48a7118b4db77a52130[m
+Merge: 8700e04 6ef5a04
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:15:00 2020 +0100
+
+    Merge pull request #5 from motdde/master
+    
+    File for @motdde on slack
+
+[33mcommit 8700e041c2e726d0c4ea2b797abc15c691ca399a[m
+Merge: e56ef72 ef59125
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:14:53 2020 +0100
+
+    Merge pull request #6 from saucecodee/master
+    
+    Create HNG-02430.js
+
+[33mcommit e94294793ce7a7aace297225652237836572c025[m
+Author: Aanuoluwapo Babajide <46856621+anubabajide@users.noreply.github.com>
+Date:   Fri Jun 5 15:14:50 2020 +0100
+
+    Create HNG-00596.py
+
+[33mcommit e56ef7235c969a68d071c7c83109d048e82fc256[m
+Merge: 5f02fb2 352eaf1
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:14:47 2020 +0100
+
+    Merge pull request #7 from Jacreator/master
+    
+    Scripts added
+
+[33mcommit 5f02fb265d046102a1195e6f0f93c3b15670658d[m
+Merge: b34c1de 73d497d
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:14:37 2020 +0100
+
+    Merge pull request #8 from Myspheet/master
+    
+    Added Promise Oghenevwefe Task 2
+
+[33mcommit 243790893f91ceeabb82a9268c3dc70d6ca4f8aa[m
+Author: vasanth9 <cheepurupalli.vasanthkumar@gmail.com>
+Date:   Fri Jun 5 19:44:21 2020 +0530
+
+    team incredible
+
+[33mcommit e546bceb27e50bf65257cb93bac0545ac7db97b8[m
+Author: Akindele Taiwo <akindele_taiwo57@yahoo.com>
+Date:   Fri Jun 5 15:13:38 2020 +0100
+
+    Taiwodave-HNG-03847 script
+
+[33mcommit 73d497d35a0f28ffe3f1dafcb2a4ce129f00d0e4[m
+Author: Myspheet <myspheet@gmail.com>
+Date:   Fri Jun 5 15:13:09 2020 +0100
+
+    Added Promise Oghenevwefe Task 2
+
+[33mcommit 6ef5a045c9a8e4cddd9b4bc448b0ab795138c6a9[m
+Author: Oluwaseun Oyebade <motdde@users.noreply.github.com>
+Date:   Fri Jun 5 15:13:06 2020 +0100
+
+    File for @motdde on slack
+
+[33mcommit ef5912509fb6b4598e21830c345bcc5d45cd7476[m
+Author: I F E DI L I ⚡ <OnyegbuIfedili@gmail.com>
+Date:   Fri Jun 5 15:12:52 2020 +0100
+
+    Create HNG-02430.js
+
+[33mcommit e290a555de1e9fdd309c0c77f874b8364644041e[m
+Author: Totoola Kenny <40864358+Totoola-Kehinde@users.noreply.github.com>
+Date:   Fri Jun 5 15:12:50 2020 +0100
+
+    first commit
+
+[33mcommit 1fb1af6271e1722f5bdf79fd31c5e456ede4f5f1[m
+Author: Success Ikhinobele <ikhinobelesuccess@gmail.com>
+Date:   Fri Jun 5 15:11:41 2020 +0100
+
+    Scripts added
+
+[33mcommit b34c1debdbf0eda77cdd2c1ceb43c5ec9c018815[m
+Merge: a526159 48543ed
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:11:26 2020 +0100
+
+    Merge pull request #3 from developerphilo/master
+    
+    Create John-Philip.js
+
+[33mcommit 352eaf1ecdb49fa9b07c1ab9e3552a52b81324a0[m
+Author: Jacreator <jambone.james82@gmail.com>
+Date:   Fri Jun 5 15:11:09 2020 +0100
+
+    Scripts added
+
+[33mcommit e76722f1c65a9c5761b896706b8058b89d27f6f2[m
+Author: Michaelzy27 <55640053+Michaelzy27@users.noreply.github.com>
+Date:   Fri Jun 5 15:09:52 2020 +0100
+
+    Create michaelzy_script.php
+
+[33mcommit 48543edbefc03c09bf564100641f5730747c0de6[m
+Author: John Philip <60175531+developerphilo@users.noreply.github.com>
+Date:   Fri Jun 5 15:09:27 2020 +0100
+
+    Create John-Philip.js
+
+[33mcommit a526159c908acb2e34dd83a6a00800cd116eb6c7[m
+Merge: 7b22bfb 1e36041
+Author: Joshua Folorunsho <joshuafolorunsho01@gmail.com>
+Date:   Fri Jun 5 15:09:14 2020 +0100
+
+    Merge pull request #2 from tiVu99/master
+    
+    add my script
+
+[33mcommit 201ae543829a8bd92b075094fb58ad623e823506[m
+Author: Frost199 <emmaldini12@gmail.com>
+Date:   Fri Jun 5 15:08:15 2020 +0100
+
+    chore: Adding my file and necessary clean up
+    
+    Clean up done on the folder structure using thr .gitignore file, this
+    helps prevent folders that are not necessarily supported by the project
+    and should be updated frequently
+    
+    Also, submitting my script as required
+
+[33mcommit 1e360410e7efe69d2c0f868b5dae7b3c6de7f2f7[m
+Author: An Vu <43215141+tiVu99@users.noreply.github.com>
+Date:   Fri Jun 5 15:04:59 2020 +0100
+
+    add script
+
+[33mcommit 7b22bfb5157ab7ef55aafca963d561e05d0e9667[m
+Author: Elisha Ukpong <ishukpong418@gmail.com>
+Date:   Fri Jun 5 15:04:07 2020 +0100
+
+    Update README.md
+
+[33mcommit 8fd8a299d63469debda166cddcd8d299cee88998[m
+Author: Elisha Ukpong <Ishukpong418@gmail.com>
+Date:   Fri Jun 5 14:59:54 2020 +0100
+
+    scaffolding
+
+[33mcommit 79c3d9cc693ee93c10abb21d72e94e0aae4ab1ff[m
+Author: Elisha Ukpong <ishukpong418@gmail.com>
+Date:   Fri Jun 5 14:49:56 2020 +0100
+
+    Update README.md
+
+[33mcommit 34f11cf04081b0304d9ed3a7ba6fa5faa600d9b2[m
+Author: Elisha Ukpong <ishukpong418@gmail.com>
+Date:   Fri Jun 5 14:49:23 2020 +0100
+
+    Create README.md

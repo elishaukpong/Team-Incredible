@@ -1,7 +1,7 @@
 
 const getDetailsAsString = () => {
   const details = {
-    firstName: 'Deji',
+    firstName: 'Adedeji',
     lastName: 'Abiola',
     id: 'HNG-01740',
     email: 'adedejiabiola56@gmail.com',
