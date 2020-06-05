@@ -225,23 +225,23 @@ if ($json) {
 
                 if ($status == 'pass') {
 
-//                    echo <<<EOL
-//                                <tr class="table-success">
-//                                <th scope="row">$row</th>
-//                                <td><b>$name</b></td>
-//                                <td>$newString</td>
-//                                <td>
-//                                    $email
-//                                </td>
-//                                <td>$status ✅</td>
-//                                </tr>
-//
-//                             EOL;
-//                    ?>
-<!--                    <script>-->
-<!--                        $('#success').html(Number($('#success').html()) + 1);-->
-<!--                    </script>-->
-<!--                    --><?php
+                    echo <<<EOL
+                                <tr class="table-success">
+                                <th scope="row">$row</th>
+                                <td><b>$name</b></td>
+                                <td>$newString</td>
+                                <td>
+                                    $email
+                                </td>
+                                <td>$status ✅</td>
+                                </tr>
+
+                             EOL;
+                    ?>
+                    <script>
+                        $('#success').html(Number($('#success').html()) + 1);
+                    </script>
+                    <?php
                 }
                 else {
                     echo <<<EOL
