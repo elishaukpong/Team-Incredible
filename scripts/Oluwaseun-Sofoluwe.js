@@ -1,7 +1,7 @@
 
 let fullName = "Oluwaseun Sofoluwe";
 let HNGID = "HNG-00677";
-let language = "Javascript";
+let language = "JavaScript";
 let userEmail = "sofoluweseun@gmail.com";
 
 let displayMessage = function(name, ID, email, language){
