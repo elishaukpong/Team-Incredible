@@ -1,6 +1,6 @@
 class Info:
   fname = "Ipshita"
-  lname = "RoyBurman"
+  lname = "Roy Burman"
   id = "HNG-06545"
   email = "ipshitarburman@gmail.com"
   language = "Python"
