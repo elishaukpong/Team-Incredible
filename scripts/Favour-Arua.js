@@ -1,6 +1,6 @@
 const fullName = "Favour Ezinne Arua";
 const id = "HNG-04184";
-let lang = "JavaScript";
+let lang = "Javascript";
 let email = "favourvalg@gmail.com";
 
 console.log(
