@@ -4,3 +4,4 @@
 scripts/tempCodeRunnerFile.*
 scripts/*.class
 venv
+debug.log
