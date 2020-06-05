@@ -78,7 +78,7 @@ if (isset($json) && strtolower($json) == 'json') {
 
     }
 
-    echo json_encode($data);
+    echo json_encode($data,JSON_PRETTY_PRINT);
 
 }else{
     if (ob_get_level() == 0) ob_start();
