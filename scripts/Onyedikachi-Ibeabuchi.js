@@ -6,7 +6,7 @@ function task(){
         "fullname": "Onyedikachi Ibeabuchi",
         "id": "HNG-04135",
         "language": "JavaScript",
-        "email":"ibeabuchionyedikachii@gmail.com"
+        "email":"ibeabuchionyedikachi@gmail.com"
     }`
     
     var json = JSON.parse(profileDetails);
