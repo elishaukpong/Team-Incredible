@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Do not raise issues, talk to the team lead @e.u'' first issue'
-        pr-message: 'Welcome to TEAM INCREDIBLE, your pr will be attended to soon, you can message @tobi to fastedn the process'' first pr'
+        pr-message: 'Welcome to TEAM INCREDIBLE, your pr will be attended to soon, you can message @Tobi to speed up the process'' first pr'
