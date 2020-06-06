@@ -1,6 +1,6 @@
 name = "aj"
 id = "HNG-05497"
-email = "khalilajstunner@gmail.com"
+email = "samwel.naftali@strathmore.edu"
 language = "Python"
 
 
