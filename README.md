@@ -17,7 +17,7 @@ FOLLOW THIS FORMAT RELIGIOUSLY
 ```git
     cd scripts
 ```
-- run the following codes to commit your changes
+- Run the following codes to commit your changes
 ```git
     git branch [branchname]
     git checkout [branchname]
@@ -27,10 +27,14 @@ FOLLOW THIS FORMAT RELIGIOUSLY
 ```
 - Proceed to your online repository and create a pull request
 
-FILENAME FORMAT
+- FILENAME FORMAT
+```yaml
 Firstname-Lastname.EXTENSION
-
-
+```
+- To host locally, navigate to Team-Incredible folder in terminal and run
+```yaml
+  php -S localhost:8000
+```
 SUPPORTED LANGUAGES
 DART | PHP | PYTHON | JAVASCRIPT
 
