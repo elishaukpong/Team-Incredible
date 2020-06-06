@@ -1,4 +1,4 @@
-const email = "ddy.asemv@gmail.com";
+const email = "ddy.asem@gmail.com";
 const nam = "David Asem";
 const id = "HNG-00153";
 const lang = "JavaScript";
