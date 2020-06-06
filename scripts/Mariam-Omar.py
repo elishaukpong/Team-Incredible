@@ -1,9 +1,7 @@
-information = "Hello World! This is Mariam Omar with "
-ID = " ID HNG-01084"
-email = "umarsamiya@gmail.com"
-language = "python language"
+message = "Hello World! This is Mariam Omar with ID HNG-01084"
+email = "email umarsamiya@gmail.com"
+language = "python"
 stage = "stage 2"
-status = "pass"
 
 
-print(information + " " +ID +  " and  my email is " +  email  +" using " + language + " for "+ stage  )
+print(message + " " + " and  " +  email  +" using " + language + " for "+ stage  )
