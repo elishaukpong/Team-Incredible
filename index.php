@@ -109,7 +109,7 @@ if ($json) {
                 $startScript = "node";
                 break;
             case 'py':
-                $startScript = "python";
+                $startScript = "python3";
                 break;
             case 'dart':
                 $startScript = "dart";
