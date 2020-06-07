@@ -21,7 +21,7 @@ class MyDetailHNG
 
 $data = new MyDetailHNG;
 
-$data->HngInternId = "HNG-00274";
+$data->HngInternId = "HNG-00276";
 $data->myfullname = "Adakole Inalegwu James";
 $data->email = "jambone.james82@gmail.com";
 $data->languageOfChoice = "PHP";
